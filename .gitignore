@@ -1,0 +1,31 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Archivos de Python compilados y caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de datos grandes (si no los quieres en el repo)
+# data/raw/*.csv  # Comenta esto si quieres que tus datos estén en Git (para datasets pequeños)
+data/processed/
+data/output/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Variables de entorno
+.env

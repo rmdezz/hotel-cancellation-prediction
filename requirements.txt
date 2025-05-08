@@ -1,0 +1,15 @@
+python-dotenv
+pandas
+numpy
+scikit-learn
+lightgbm
+xgboost
+catboost
+matplotlib
+seaborn
+notebook 
+pyyaml     # Para leer archivos de configuración .yaml
+optuna     # Para tuneo de hiperparámetros (opcional al inicio)
+mlflow     # Para tracking de experimentos (opcional al inicio)
+# category_encoders # Si decides usarlo
+# mlxtend # Para ensambles (opcional)
