@@ -1,0 +1,4354 @@
+Id,Estado_Reserva
+0,Cancelada
+1,No Cancelada
+2,Cancelada
+3,Cancelada
+4,Cancelada
+5,No Cancelada
+6,No Cancelada
+7,No Cancelada
+8,Cancelada
+9,Cancelada
+10,Cancelada
+11,Cancelada
+12,Cancelada
+13,No Cancelada
+14,Cancelada
+15,No Cancelada
+16,No Cancelada
+17,Cancelada
+18,No Cancelada
+19,Cancelada
+20,Cancelada
+21,Cancelada
+22,No Cancelada
+23,Cancelada
+24,Cancelada
+25,Cancelada
+26,Cancelada
+27,Cancelada
+28,No Cancelada
+29,Cancelada
+30,No Cancelada
+31,Cancelada
+32,Cancelada
+33,Cancelada
+34,Cancelada
+35,No Cancelada
+36,No Cancelada
+37,No Cancelada
+38,Cancelada
+39,Cancelada
+40,Cancelada
+41,No Cancelada
+42,No Cancelada
+43,No Cancelada
+44,Cancelada
+45,No Cancelada
+46,No Cancelada
+47,Cancelada
+48,Cancelada
+49,No Cancelada
+50,No Cancelada
+51,Cancelada
+52,Cancelada
+53,No Cancelada
+54,No Cancelada
+55,Cancelada
+56,Cancelada
+57,No Cancelada
+58,No Cancelada
+59,Cancelada
+60,Cancelada
+61,Cancelada
+62,Cancelada
+63,Cancelada
+64,Cancelada
+65,Cancelada
+66,Cancelada
+67,No Cancelada
+68,No Cancelada
+69,No Cancelada
+70,Cancelada
+71,No Cancelada
+72,No Cancelada
+73,Cancelada
+74,Cancelada
+75,No Cancelada
+76,No Cancelada
+77,Cancelada
+78,Cancelada
+79,No Cancelada
+80,Cancelada
+81,No Cancelada
+82,No Cancelada
+83,No Cancelada
+84,No Cancelada
+85,Cancelada
+86,Cancelada
+87,No Cancelada
+88,Cancelada
+89,No Cancelada
+90,Cancelada
+91,No Cancelada
+92,No Cancelada
+93,No Cancelada
+94,Cancelada
+95,No Cancelada
+96,No Cancelada
+97,Cancelada
+98,No Cancelada
+99,No Cancelada
+100,No Cancelada
+101,No Cancelada
+102,No Cancelada
+103,Cancelada
+104,No Cancelada
+105,No Cancelada
+106,Cancelada
+107,Cancelada
+108,Cancelada
+109,No Cancelada
+110,Cancelada
+111,No Cancelada
+112,Cancelada
+113,Cancelada
+114,Cancelada
+115,No Cancelada
+116,Cancelada
+117,No Cancelada
+118,Cancelada
+119,Cancelada
+120,Cancelada
+121,No Cancelada
+122,No Cancelada
+123,Cancelada
+124,Cancelada
+125,Cancelada
+126,Cancelada
+127,No Cancelada
+128,No Cancelada
+129,No Cancelada
+130,Cancelada
+131,Cancelada
+132,Cancelada
+133,Cancelada
+134,No Cancelada
+135,Cancelada
+136,No Cancelada
+137,Cancelada
+138,No Cancelada
+139,No Cancelada
+140,No Cancelada
+141,Cancelada
+142,No Cancelada
+143,Cancelada
+144,Cancelada
+145,No Cancelada
+146,Cancelada
+147,Cancelada
+148,Cancelada
+149,No Cancelada
+150,No Cancelada
+151,No Cancelada
+152,Cancelada
+153,Cancelada
+154,No Cancelada
+155,Cancelada
+156,Cancelada
+157,Cancelada
+158,No Cancelada
+159,No Cancelada
+160,No Cancelada
+161,No Cancelada
+162,No Cancelada
+163,Cancelada
+164,No Cancelada
+165,Cancelada
+166,Cancelada
+167,No Cancelada
+168,No Cancelada
+169,No Cancelada
+170,No Cancelada
+171,Cancelada
+172,Cancelada
+173,Cancelada
+174,Cancelada
+175,Cancelada
+176,No Cancelada
+177,No Cancelada
+178,Cancelada
+179,No Cancelada
+180,No Cancelada
+181,Cancelada
+182,No Cancelada
+183,No Cancelada
+184,Cancelada
+185,No Cancelada
+186,Cancelada
+187,Cancelada
+188,No Cancelada
+189,Cancelada
+190,No Cancelada
+191,Cancelada
+192,Cancelada
+193,No Cancelada
+194,No Cancelada
+195,Cancelada
+196,No Cancelada
+197,Cancelada
+198,Cancelada
+199,Cancelada
+200,Cancelada
+201,Cancelada
+202,Cancelada
+203,No Cancelada
+204,No Cancelada
+205,Cancelada
+206,No Cancelada
+207,No Cancelada
+208,No Cancelada
+209,Cancelada
+210,Cancelada
+211,No Cancelada
+212,No Cancelada
+213,No Cancelada
+214,Cancelada
+215,No Cancelada
+216,Cancelada
+217,Cancelada
+218,No Cancelada
+219,Cancelada
+220,Cancelada
+221,Cancelada
+222,Cancelada
+223,No Cancelada
+224,No Cancelada
+225,No Cancelada
+226,Cancelada
+227,Cancelada
+228,No Cancelada
+229,Cancelada
+230,Cancelada
+231,No Cancelada
+232,Cancelada
+233,No Cancelada
+234,No Cancelada
+235,No Cancelada
+236,No Cancelada
+237,Cancelada
+238,No Cancelada
+239,Cancelada
+240,No Cancelada
+241,No Cancelada
+242,No Cancelada
+243,No Cancelada
+244,Cancelada
+245,Cancelada
+246,No Cancelada
+247,No Cancelada
+248,No Cancelada
+249,No Cancelada
+250,No Cancelada
+251,No Cancelada
+252,No Cancelada
+253,Cancelada
+254,Cancelada
+255,Cancelada
+256,Cancelada
+257,No Cancelada
+258,No Cancelada
+259,Cancelada
+260,No Cancelada
+261,Cancelada
+262,No Cancelada
+263,Cancelada
+264,No Cancelada
+265,Cancelada
+266,Cancelada
+267,Cancelada
+268,No Cancelada
+269,Cancelada
+270,Cancelada
+271,No Cancelada
+272,Cancelada
+273,No Cancelada
+274,Cancelada
+275,No Cancelada
+276,Cancelada
+277,No Cancelada
+278,No Cancelada
+279,Cancelada
+280,Cancelada
+281,No Cancelada
+282,No Cancelada
+283,Cancelada
+284,No Cancelada
+285,No Cancelada
+286,No Cancelada
+287,No Cancelada
+288,Cancelada
+289,No Cancelada
+290,No Cancelada
+291,Cancelada
+292,No Cancelada
+293,No Cancelada
+294,Cancelada
+295,No Cancelada
+296,No Cancelada
+297,Cancelada
+298,Cancelada
+299,Cancelada
+300,No Cancelada
+301,No Cancelada
+302,Cancelada
+303,Cancelada
+304,No Cancelada
+305,Cancelada
+306,No Cancelada
+307,Cancelada
+308,Cancelada
+309,No Cancelada
+310,No Cancelada
+311,Cancelada
+312,Cancelada
+313,No Cancelada
+314,No Cancelada
+315,Cancelada
+316,Cancelada
+317,Cancelada
+318,No Cancelada
+319,Cancelada
+320,No Cancelada
+321,Cancelada
+322,Cancelada
+323,No Cancelada
+324,No Cancelada
+325,No Cancelada
+326,No Cancelada
+327,No Cancelada
+328,No Cancelada
+329,No Cancelada
+330,Cancelada
+331,Cancelada
+332,Cancelada
+333,Cancelada
+334,Cancelada
+335,No Cancelada
+336,Cancelada
+337,No Cancelada
+338,Cancelada
+339,Cancelada
+340,No Cancelada
+341,Cancelada
+342,Cancelada
+343,Cancelada
+344,No Cancelada
+345,Cancelada
+346,Cancelada
+347,Cancelada
+348,No Cancelada
+349,No Cancelada
+350,Cancelada
+351,Cancelada
+352,Cancelada
+353,Cancelada
+354,Cancelada
+355,No Cancelada
+356,Cancelada
+357,Cancelada
+358,Cancelada
+359,Cancelada
+360,Cancelada
+361,No Cancelada
+362,No Cancelada
+363,Cancelada
+364,Cancelada
+365,Cancelada
+366,Cancelada
+367,No Cancelada
+368,Cancelada
+369,Cancelada
+370,No Cancelada
+371,No Cancelada
+372,Cancelada
+373,No Cancelada
+374,No Cancelada
+375,Cancelada
+376,No Cancelada
+377,Cancelada
+378,No Cancelada
+379,Cancelada
+380,No Cancelada
+381,Cancelada
+382,Cancelada
+383,Cancelada
+384,No Cancelada
+385,No Cancelada
+386,No Cancelada
+387,Cancelada
+388,No Cancelada
+389,Cancelada
+390,Cancelada
+391,No Cancelada
+392,No Cancelada
+393,No Cancelada
+394,No Cancelada
+395,Cancelada
+396,Cancelada
+397,No Cancelada
+398,Cancelada
+399,No Cancelada
+400,No Cancelada
+401,No Cancelada
+402,Cancelada
+403,Cancelada
+404,Cancelada
+405,No Cancelada
+406,No Cancelada
+407,Cancelada
+408,No Cancelada
+409,Cancelada
+410,No Cancelada
+411,Cancelada
+412,No Cancelada
+413,No Cancelada
+414,No Cancelada
+415,Cancelada
+416,Cancelada
+417,Cancelada
+418,No Cancelada
+419,Cancelada
+420,Cancelada
+421,No Cancelada
+422,No Cancelada
+423,Cancelada
+424,Cancelada
+425,No Cancelada
+426,No Cancelada
+427,Cancelada
+428,Cancelada
+429,Cancelada
+430,No Cancelada
+431,Cancelada
+432,Cancelada
+433,Cancelada
+434,Cancelada
+435,Cancelada
+436,No Cancelada
+437,No Cancelada
+438,No Cancelada
+439,No Cancelada
+440,No Cancelada
+441,Cancelada
+442,No Cancelada
+443,Cancelada
+444,Cancelada
+445,Cancelada
+446,Cancelada
+447,No Cancelada
+448,Cancelada
+449,Cancelada
+450,No Cancelada
+451,Cancelada
+452,No Cancelada
+453,No Cancelada
+454,No Cancelada
+455,No Cancelada
+456,Cancelada
+457,Cancelada
+458,Cancelada
+459,Cancelada
+460,Cancelada
+461,No Cancelada
+462,Cancelada
+463,Cancelada
+464,Cancelada
+465,Cancelada
+466,Cancelada
+467,No Cancelada
+468,Cancelada
+469,Cancelada
+470,Cancelada
+471,Cancelada
+472,Cancelada
+473,No Cancelada
+474,Cancelada
+475,No Cancelada
+476,Cancelada
+477,Cancelada
+478,Cancelada
+479,Cancelada
+480,Cancelada
+481,No Cancelada
+482,No Cancelada
+483,Cancelada
+484,Cancelada
+485,No Cancelada
+486,Cancelada
+487,Cancelada
+488,Cancelada
+489,Cancelada
+490,No Cancelada
+491,No Cancelada
+492,No Cancelada
+493,Cancelada
+494,Cancelada
+495,No Cancelada
+496,Cancelada
+497,No Cancelada
+498,Cancelada
+499,Cancelada
+500,Cancelada
+501,Cancelada
+502,No Cancelada
+503,No Cancelada
+504,Cancelada
+505,No Cancelada
+506,No Cancelada
+507,No Cancelada
+508,No Cancelada
+509,Cancelada
+510,Cancelada
+511,Cancelada
+512,No Cancelada
+513,Cancelada
+514,No Cancelada
+515,No Cancelada
+516,No Cancelada
+517,No Cancelada
+518,No Cancelada
+519,No Cancelada
+520,No Cancelada
+521,No Cancelada
+522,No Cancelada
+523,Cancelada
+524,No Cancelada
+525,No Cancelada
+526,Cancelada
+527,Cancelada
+528,No Cancelada
+529,Cancelada
+530,No Cancelada
+531,No Cancelada
+532,No Cancelada
+533,Cancelada
+534,No Cancelada
+535,Cancelada
+536,No Cancelada
+537,No Cancelada
+538,Cancelada
+539,No Cancelada
+540,Cancelada
+541,Cancelada
+542,No Cancelada
+543,Cancelada
+544,No Cancelada
+545,No Cancelada
+546,Cancelada
+547,Cancelada
+548,No Cancelada
+549,Cancelada
+550,Cancelada
+551,No Cancelada
+552,Cancelada
+553,Cancelada
+554,No Cancelada
+555,Cancelada
+556,Cancelada
+557,No Cancelada
+558,Cancelada
+559,No Cancelada
+560,Cancelada
+561,No Cancelada
+562,Cancelada
+563,No Cancelada
+564,Cancelada
+565,No Cancelada
+566,No Cancelada
+567,Cancelada
+568,No Cancelada
+569,Cancelada
+570,No Cancelada
+571,Cancelada
+572,No Cancelada
+573,No Cancelada
+574,No Cancelada
+575,Cancelada
+576,No Cancelada
+577,Cancelada
+578,No Cancelada
+579,Cancelada
+580,Cancelada
+581,Cancelada
+582,No Cancelada
+583,No Cancelada
+584,Cancelada
+585,No Cancelada
+586,Cancelada
+587,No Cancelada
+588,No Cancelada
+589,Cancelada
+590,Cancelada
+591,Cancelada
+592,Cancelada
+593,No Cancelada
+594,No Cancelada
+595,Cancelada
+596,Cancelada
+597,Cancelada
+598,No Cancelada
+599,Cancelada
+600,No Cancelada
+601,No Cancelada
+602,Cancelada
+603,No Cancelada
+604,No Cancelada
+605,No Cancelada
+606,No Cancelada
+607,Cancelada
+608,No Cancelada
+609,No Cancelada
+610,No Cancelada
+611,Cancelada
+612,Cancelada
+613,No Cancelada
+614,No Cancelada
+615,Cancelada
+616,Cancelada
+617,No Cancelada
+618,Cancelada
+619,No Cancelada
+620,No Cancelada
+621,Cancelada
+622,No Cancelada
+623,No Cancelada
+624,No Cancelada
+625,No Cancelada
+626,Cancelada
+627,No Cancelada
+628,Cancelada
+629,No Cancelada
+630,No Cancelada
+631,No Cancelada
+632,Cancelada
+633,Cancelada
+634,Cancelada
+635,No Cancelada
+636,No Cancelada
+637,No Cancelada
+638,Cancelada
+639,No Cancelada
+640,Cancelada
+641,No Cancelada
+642,Cancelada
+643,Cancelada
+644,Cancelada
+645,Cancelada
+646,No Cancelada
+647,No Cancelada
+648,No Cancelada
+649,No Cancelada
+650,Cancelada
+651,Cancelada
+652,Cancelada
+653,Cancelada
+654,Cancelada
+655,No Cancelada
+656,No Cancelada
+657,Cancelada
+658,Cancelada
+659,Cancelada
+660,No Cancelada
+661,No Cancelada
+662,Cancelada
+663,No Cancelada
+664,No Cancelada
+665,No Cancelada
+666,No Cancelada
+667,No Cancelada
+668,Cancelada
+669,No Cancelada
+670,Cancelada
+671,Cancelada
+672,No Cancelada
+673,No Cancelada
+674,Cancelada
+675,No Cancelada
+676,No Cancelada
+677,Cancelada
+678,No Cancelada
+679,No Cancelada
+680,Cancelada
+681,No Cancelada
+682,No Cancelada
+683,No Cancelada
+684,Cancelada
+685,Cancelada
+686,Cancelada
+687,Cancelada
+688,Cancelada
+689,Cancelada
+690,No Cancelada
+691,No Cancelada
+692,Cancelada
+693,Cancelada
+694,Cancelada
+695,No Cancelada
+696,No Cancelada
+697,No Cancelada
+698,Cancelada
+699,No Cancelada
+700,Cancelada
+701,Cancelada
+702,No Cancelada
+703,Cancelada
+704,No Cancelada
+705,No Cancelada
+706,Cancelada
+707,No Cancelada
+708,No Cancelada
+709,Cancelada
+710,Cancelada
+711,No Cancelada
+712,No Cancelada
+713,No Cancelada
+714,Cancelada
+715,Cancelada
+716,Cancelada
+717,Cancelada
+718,No Cancelada
+719,No Cancelada
+720,No Cancelada
+721,Cancelada
+722,Cancelada
+723,Cancelada
+724,No Cancelada
+725,No Cancelada
+726,Cancelada
+727,Cancelada
+728,No Cancelada
+729,Cancelada
+730,No Cancelada
+731,No Cancelada
+732,Cancelada
+733,No Cancelada
+734,No Cancelada
+735,No Cancelada
+736,Cancelada
+737,No Cancelada
+738,No Cancelada
+739,Cancelada
+740,No Cancelada
+741,No Cancelada
+742,No Cancelada
+743,No Cancelada
+744,Cancelada
+745,No Cancelada
+746,Cancelada
+747,Cancelada
+748,No Cancelada
+749,No Cancelada
+750,Cancelada
+751,No Cancelada
+752,No Cancelada
+753,No Cancelada
+754,No Cancelada
+755,Cancelada
+756,Cancelada
+757,Cancelada
+758,Cancelada
+759,No Cancelada
+760,Cancelada
+761,No Cancelada
+762,No Cancelada
+763,No Cancelada
+764,No Cancelada
+765,No Cancelada
+766,No Cancelada
+767,No Cancelada
+768,No Cancelada
+769,Cancelada
+770,Cancelada
+771,Cancelada
+772,No Cancelada
+773,No Cancelada
+774,Cancelada
+775,No Cancelada
+776,Cancelada
+777,Cancelada
+778,Cancelada
+779,No Cancelada
+780,Cancelada
+781,Cancelada
+782,Cancelada
+783,Cancelada
+784,No Cancelada
+785,Cancelada
+786,No Cancelada
+787,No Cancelada
+788,No Cancelada
+789,Cancelada
+790,Cancelada
+791,Cancelada
+792,Cancelada
+793,No Cancelada
+794,Cancelada
+795,Cancelada
+796,No Cancelada
+797,Cancelada
+798,No Cancelada
+799,Cancelada
+800,No Cancelada
+801,Cancelada
+802,Cancelada
+803,No Cancelada
+804,No Cancelada
+805,Cancelada
+806,No Cancelada
+807,No Cancelada
+808,No Cancelada
+809,No Cancelada
+810,Cancelada
+811,No Cancelada
+812,Cancelada
+813,No Cancelada
+814,Cancelada
+815,No Cancelada
+816,Cancelada
+817,No Cancelada
+818,No Cancelada
+819,No Cancelada
+820,Cancelada
+821,No Cancelada
+822,No Cancelada
+823,No Cancelada
+824,No Cancelada
+825,No Cancelada
+826,No Cancelada
+827,Cancelada
+828,No Cancelada
+829,Cancelada
+830,Cancelada
+831,No Cancelada
+832,Cancelada
+833,No Cancelada
+834,Cancelada
+835,Cancelada
+836,Cancelada
+837,Cancelada
+838,Cancelada
+839,No Cancelada
+840,Cancelada
+841,Cancelada
+842,Cancelada
+843,No Cancelada
+844,No Cancelada
+845,Cancelada
+846,No Cancelada
+847,No Cancelada
+848,No Cancelada
+849,Cancelada
+850,Cancelada
+851,No Cancelada
+852,No Cancelada
+853,Cancelada
+854,No Cancelada
+855,No Cancelada
+856,Cancelada
+857,Cancelada
+858,Cancelada
+859,No Cancelada
+860,No Cancelada
+861,No Cancelada
+862,No Cancelada
+863,Cancelada
+864,No Cancelada
+865,No Cancelada
+866,No Cancelada
+867,No Cancelada
+868,Cancelada
+869,Cancelada
+870,No Cancelada
+871,Cancelada
+872,No Cancelada
+873,No Cancelada
+874,No Cancelada
+875,Cancelada
+876,No Cancelada
+877,No Cancelada
+878,No Cancelada
+879,Cancelada
+880,No Cancelada
+881,No Cancelada
+882,Cancelada
+883,No Cancelada
+884,No Cancelada
+885,Cancelada
+886,Cancelada
+887,Cancelada
+888,No Cancelada
+889,No Cancelada
+890,Cancelada
+891,Cancelada
+892,Cancelada
+893,Cancelada
+894,No Cancelada
+895,No Cancelada
+896,Cancelada
+897,No Cancelada
+898,Cancelada
+899,No Cancelada
+900,Cancelada
+901,Cancelada
+902,No Cancelada
+903,No Cancelada
+904,No Cancelada
+905,Cancelada
+906,Cancelada
+907,No Cancelada
+908,No Cancelada
+909,Cancelada
+910,Cancelada
+911,No Cancelada
+912,Cancelada
+913,Cancelada
+914,Cancelada
+915,Cancelada
+916,Cancelada
+917,No Cancelada
+918,Cancelada
+919,No Cancelada
+920,Cancelada
+921,Cancelada
+922,No Cancelada
+923,Cancelada
+924,Cancelada
+925,No Cancelada
+926,Cancelada
+927,No Cancelada
+928,Cancelada
+929,Cancelada
+930,Cancelada
+931,No Cancelada
+932,Cancelada
+933,Cancelada
+934,No Cancelada
+935,Cancelada
+936,No Cancelada
+937,Cancelada
+938,Cancelada
+939,No Cancelada
+940,Cancelada
+941,Cancelada
+942,No Cancelada
+943,No Cancelada
+944,No Cancelada
+945,No Cancelada
+946,No Cancelada
+947,No Cancelada
+948,No Cancelada
+949,No Cancelada
+950,Cancelada
+951,Cancelada
+952,No Cancelada
+953,No Cancelada
+954,No Cancelada
+955,No Cancelada
+956,Cancelada
+957,Cancelada
+958,Cancelada
+959,No Cancelada
+960,Cancelada
+961,No Cancelada
+962,Cancelada
+963,No Cancelada
+964,No Cancelada
+965,Cancelada
+966,Cancelada
+967,Cancelada
+968,Cancelada
+969,Cancelada
+970,Cancelada
+971,No Cancelada
+972,No Cancelada
+973,No Cancelada
+974,Cancelada
+975,No Cancelada
+976,Cancelada
+977,No Cancelada
+978,No Cancelada
+979,No Cancelada
+980,No Cancelada
+981,No Cancelada
+982,No Cancelada
+983,Cancelada
+984,No Cancelada
+985,No Cancelada
+986,Cancelada
+987,No Cancelada
+988,Cancelada
+989,Cancelada
+990,No Cancelada
+991,No Cancelada
+992,Cancelada
+993,Cancelada
+994,Cancelada
+995,No Cancelada
+996,No Cancelada
+997,No Cancelada
+998,Cancelada
+999,No Cancelada
+1000,No Cancelada
+1001,Cancelada
+1002,No Cancelada
+1003,No Cancelada
+1004,Cancelada
+1005,Cancelada
+1006,Cancelada
+1007,Cancelada
+1008,Cancelada
+1009,No Cancelada
+1010,Cancelada
+1011,No Cancelada
+1012,Cancelada
+1013,No Cancelada
+1014,Cancelada
+1015,No Cancelada
+1016,Cancelada
+1017,No Cancelada
+1018,Cancelada
+1019,Cancelada
+1020,Cancelada
+1021,No Cancelada
+1022,Cancelada
+1023,No Cancelada
+1024,No Cancelada
+1025,No Cancelada
+1026,No Cancelada
+1027,No Cancelada
+1028,Cancelada
+1029,Cancelada
+1030,No Cancelada
+1031,Cancelada
+1032,Cancelada
+1033,No Cancelada
+1034,No Cancelada
+1035,Cancelada
+1036,Cancelada
+1037,Cancelada
+1038,No Cancelada
+1039,No Cancelada
+1040,Cancelada
+1041,No Cancelada
+1042,No Cancelada
+1043,No Cancelada
+1044,Cancelada
+1045,No Cancelada
+1046,No Cancelada
+1047,No Cancelada
+1048,No Cancelada
+1049,No Cancelada
+1050,Cancelada
+1051,No Cancelada
+1052,Cancelada
+1053,Cancelada
+1054,Cancelada
+1055,Cancelada
+1056,No Cancelada
+1057,No Cancelada
+1058,No Cancelada
+1059,Cancelada
+1060,Cancelada
+1061,No Cancelada
+1062,No Cancelada
+1063,No Cancelada
+1064,Cancelada
+1065,No Cancelada
+1066,No Cancelada
+1067,No Cancelada
+1068,No Cancelada
+1069,Cancelada
+1070,Cancelada
+1071,Cancelada
+1072,No Cancelada
+1073,No Cancelada
+1074,No Cancelada
+1075,No Cancelada
+1076,No Cancelada
+1077,No Cancelada
+1078,Cancelada
+1079,No Cancelada
+1080,Cancelada
+1081,Cancelada
+1082,Cancelada
+1083,No Cancelada
+1084,No Cancelada
+1085,No Cancelada
+1086,Cancelada
+1087,No Cancelada
+1088,No Cancelada
+1089,No Cancelada
+1090,No Cancelada
+1091,Cancelada
+1092,Cancelada
+1093,Cancelada
+1094,No Cancelada
+1095,Cancelada
+1096,No Cancelada
+1097,No Cancelada
+1098,Cancelada
+1099,No Cancelada
+1100,Cancelada
+1101,Cancelada
+1102,No Cancelada
+1103,No Cancelada
+1104,Cancelada
+1105,Cancelada
+1106,No Cancelada
+1107,No Cancelada
+1108,Cancelada
+1109,No Cancelada
+1110,Cancelada
+1111,No Cancelada
+1112,No Cancelada
+1113,Cancelada
+1114,No Cancelada
+1115,Cancelada
+1116,No Cancelada
+1117,No Cancelada
+1118,No Cancelada
+1119,No Cancelada
+1120,No Cancelada
+1121,No Cancelada
+1122,No Cancelada
+1123,No Cancelada
+1124,Cancelada
+1125,Cancelada
+1126,Cancelada
+1127,Cancelada
+1128,No Cancelada
+1129,No Cancelada
+1130,Cancelada
+1131,Cancelada
+1132,Cancelada
+1133,No Cancelada
+1134,No Cancelada
+1135,No Cancelada
+1136,Cancelada
+1137,Cancelada
+1138,Cancelada
+1139,No Cancelada
+1140,No Cancelada
+1141,Cancelada
+1142,Cancelada
+1143,Cancelada
+1144,Cancelada
+1145,Cancelada
+1146,Cancelada
+1147,Cancelada
+1148,Cancelada
+1149,Cancelada
+1150,No Cancelada
+1151,No Cancelada
+1152,No Cancelada
+1153,No Cancelada
+1154,No Cancelada
+1155,No Cancelada
+1156,Cancelada
+1157,No Cancelada
+1158,Cancelada
+1159,No Cancelada
+1160,Cancelada
+1161,Cancelada
+1162,Cancelada
+1163,No Cancelada
+1164,No Cancelada
+1165,Cancelada
+1166,No Cancelada
+1167,Cancelada
+1168,Cancelada
+1169,Cancelada
+1170,No Cancelada
+1171,Cancelada
+1172,No Cancelada
+1173,No Cancelada
+1174,Cancelada
+1175,No Cancelada
+1176,No Cancelada
+1177,Cancelada
+1178,No Cancelada
+1179,No Cancelada
+1180,No Cancelada
+1181,No Cancelada
+1182,Cancelada
+1183,No Cancelada
+1184,Cancelada
+1185,Cancelada
+1186,No Cancelada
+1187,Cancelada
+1188,Cancelada
+1189,No Cancelada
+1190,Cancelada
+1191,No Cancelada
+1192,No Cancelada
+1193,No Cancelada
+1194,No Cancelada
+1195,Cancelada
+1196,No Cancelada
+1197,Cancelada
+1198,Cancelada
+1199,Cancelada
+1200,No Cancelada
+1201,No Cancelada
+1202,No Cancelada
+1203,No Cancelada
+1204,No Cancelada
+1205,Cancelada
+1206,No Cancelada
+1207,No Cancelada
+1208,No Cancelada
+1209,No Cancelada
+1210,No Cancelada
+1211,No Cancelada
+1212,No Cancelada
+1213,No Cancelada
+1214,No Cancelada
+1215,Cancelada
+1216,Cancelada
+1217,No Cancelada
+1218,No Cancelada
+1219,No Cancelada
+1220,Cancelada
+1221,No Cancelada
+1222,No Cancelada
+1223,No Cancelada
+1224,No Cancelada
+1225,Cancelada
+1226,No Cancelada
+1227,No Cancelada
+1228,Cancelada
+1229,No Cancelada
+1230,Cancelada
+1231,Cancelada
+1232,Cancelada
+1233,No Cancelada
+1234,No Cancelada
+1235,No Cancelada
+1236,No Cancelada
+1237,Cancelada
+1238,Cancelada
+1239,No Cancelada
+1240,No Cancelada
+1241,No Cancelada
+1242,No Cancelada
+1243,Cancelada
+1244,Cancelada
+1245,Cancelada
+1246,Cancelada
+1247,Cancelada
+1248,No Cancelada
+1249,Cancelada
+1250,Cancelada
+1251,No Cancelada
+1252,Cancelada
+1253,Cancelada
+1254,Cancelada
+1255,Cancelada
+1256,No Cancelada
+1257,Cancelada
+1258,No Cancelada
+1259,Cancelada
+1260,Cancelada
+1261,No Cancelada
+1262,Cancelada
+1263,Cancelada
+1264,Cancelada
+1265,No Cancelada
+1266,Cancelada
+1267,No Cancelada
+1268,Cancelada
+1269,No Cancelada
+1270,No Cancelada
+1271,Cancelada
+1272,Cancelada
+1273,No Cancelada
+1274,Cancelada
+1275,No Cancelada
+1276,No Cancelada
+1277,Cancelada
+1278,No Cancelada
+1279,Cancelada
+1280,No Cancelada
+1281,Cancelada
+1282,No Cancelada
+1283,No Cancelada
+1284,No Cancelada
+1285,No Cancelada
+1286,Cancelada
+1287,No Cancelada
+1288,No Cancelada
+1289,No Cancelada
+1290,No Cancelada
+1291,Cancelada
+1292,Cancelada
+1293,Cancelada
+1294,No Cancelada
+1295,No Cancelada
+1296,No Cancelada
+1297,No Cancelada
+1298,No Cancelada
+1299,No Cancelada
+1300,Cancelada
+1301,No Cancelada
+1302,Cancelada
+1303,No Cancelada
+1304,Cancelada
+1305,Cancelada
+1306,No Cancelada
+1307,Cancelada
+1308,Cancelada
+1309,No Cancelada
+1310,No Cancelada
+1311,No Cancelada
+1312,Cancelada
+1313,Cancelada
+1314,Cancelada
+1315,No Cancelada
+1316,Cancelada
+1317,No Cancelada
+1318,Cancelada
+1319,Cancelada
+1320,No Cancelada
+1321,Cancelada
+1322,No Cancelada
+1323,No Cancelada
+1324,Cancelada
+1325,Cancelada
+1326,Cancelada
+1327,No Cancelada
+1328,No Cancelada
+1329,Cancelada
+1330,No Cancelada
+1331,Cancelada
+1332,No Cancelada
+1333,Cancelada
+1334,Cancelada
+1335,No Cancelada
+1336,Cancelada
+1337,Cancelada
+1338,No Cancelada
+1339,No Cancelada
+1340,No Cancelada
+1341,Cancelada
+1342,No Cancelada
+1343,Cancelada
+1344,Cancelada
+1345,No Cancelada
+1346,No Cancelada
+1347,Cancelada
+1348,Cancelada
+1349,Cancelada
+1350,Cancelada
+1351,Cancelada
+1352,Cancelada
+1353,Cancelada
+1354,Cancelada
+1355,Cancelada
+1356,No Cancelada
+1357,No Cancelada
+1358,Cancelada
+1359,Cancelada
+1360,No Cancelada
+1361,Cancelada
+1362,No Cancelada
+1363,No Cancelada
+1364,Cancelada
+1365,Cancelada
+1366,No Cancelada
+1367,No Cancelada
+1368,Cancelada
+1369,No Cancelada
+1370,No Cancelada
+1371,Cancelada
+1372,Cancelada
+1373,No Cancelada
+1374,No Cancelada
+1375,No Cancelada
+1376,No Cancelada
+1377,Cancelada
+1378,No Cancelada
+1379,Cancelada
+1380,Cancelada
+1381,Cancelada
+1382,No Cancelada
+1383,No Cancelada
+1384,No Cancelada
+1385,Cancelada
+1386,No Cancelada
+1387,Cancelada
+1388,No Cancelada
+1389,No Cancelada
+1390,Cancelada
+1391,No Cancelada
+1392,Cancelada
+1393,Cancelada
+1394,Cancelada
+1395,Cancelada
+1396,No Cancelada
+1397,Cancelada
+1398,No Cancelada
+1399,Cancelada
+1400,No Cancelada
+1401,Cancelada
+1402,No Cancelada
+1403,Cancelada
+1404,Cancelada
+1405,No Cancelada
+1406,No Cancelada
+1407,No Cancelada
+1408,No Cancelada
+1409,No Cancelada
+1410,No Cancelada
+1411,Cancelada
+1412,Cancelada
+1413,No Cancelada
+1414,Cancelada
+1415,No Cancelada
+1416,No Cancelada
+1417,No Cancelada
+1418,Cancelada
+1419,Cancelada
+1420,No Cancelada
+1421,No Cancelada
+1422,Cancelada
+1423,Cancelada
+1424,Cancelada
+1425,No Cancelada
+1426,No Cancelada
+1427,No Cancelada
+1428,No Cancelada
+1429,Cancelada
+1430,Cancelada
+1431,No Cancelada
+1432,Cancelada
+1433,No Cancelada
+1434,Cancelada
+1435,No Cancelada
+1436,Cancelada
+1437,Cancelada
+1438,Cancelada
+1439,No Cancelada
+1440,Cancelada
+1441,Cancelada
+1442,No Cancelada
+1443,Cancelada
+1444,Cancelada
+1445,No Cancelada
+1446,Cancelada
+1447,Cancelada
+1448,No Cancelada
+1449,Cancelada
+1450,Cancelada
+1451,No Cancelada
+1452,No Cancelada
+1453,Cancelada
+1454,No Cancelada
+1455,No Cancelada
+1456,No Cancelada
+1457,No Cancelada
+1458,No Cancelada
+1459,Cancelada
+1460,Cancelada
+1461,No Cancelada
+1462,Cancelada
+1463,Cancelada
+1464,No Cancelada
+1465,Cancelada
+1466,No Cancelada
+1467,Cancelada
+1468,No Cancelada
+1469,Cancelada
+1470,Cancelada
+1471,No Cancelada
+1472,No Cancelada
+1473,No Cancelada
+1474,No Cancelada
+1475,Cancelada
+1476,No Cancelada
+1477,Cancelada
+1478,Cancelada
+1479,Cancelada
+1480,Cancelada
+1481,Cancelada
+1482,Cancelada
+1483,Cancelada
+1484,No Cancelada
+1485,Cancelada
+1486,No Cancelada
+1487,No Cancelada
+1488,No Cancelada
+1489,No Cancelada
+1490,No Cancelada
+1491,Cancelada
+1492,Cancelada
+1493,No Cancelada
+1494,No Cancelada
+1495,No Cancelada
+1496,Cancelada
+1497,Cancelada
+1498,No Cancelada
+1499,No Cancelada
+1500,Cancelada
+1501,Cancelada
+1502,No Cancelada
+1503,No Cancelada
+1504,No Cancelada
+1505,Cancelada
+1506,No Cancelada
+1507,Cancelada
+1508,Cancelada
+1509,Cancelada
+1510,No Cancelada
+1511,Cancelada
+1512,Cancelada
+1513,No Cancelada
+1514,Cancelada
+1515,No Cancelada
+1516,No Cancelada
+1517,No Cancelada
+1518,Cancelada
+1519,No Cancelada
+1520,Cancelada
+1521,No Cancelada
+1522,Cancelada
+1523,No Cancelada
+1524,Cancelada
+1525,Cancelada
+1526,Cancelada
+1527,No Cancelada
+1528,Cancelada
+1529,Cancelada
+1530,Cancelada
+1531,No Cancelada
+1532,Cancelada
+1533,Cancelada
+1534,No Cancelada
+1535,No Cancelada
+1536,No Cancelada
+1537,No Cancelada
+1538,Cancelada
+1539,Cancelada
+1540,Cancelada
+1541,No Cancelada
+1542,No Cancelada
+1543,Cancelada
+1544,Cancelada
+1545,Cancelada
+1546,No Cancelada
+1547,No Cancelada
+1548,No Cancelada
+1549,No Cancelada
+1550,No Cancelada
+1551,No Cancelada
+1552,No Cancelada
+1553,No Cancelada
+1554,No Cancelada
+1555,No Cancelada
+1556,No Cancelada
+1557,No Cancelada
+1558,No Cancelada
+1559,Cancelada
+1560,Cancelada
+1561,Cancelada
+1562,No Cancelada
+1563,Cancelada
+1564,No Cancelada
+1565,No Cancelada
+1566,No Cancelada
+1567,No Cancelada
+1568,No Cancelada
+1569,No Cancelada
+1570,Cancelada
+1571,Cancelada
+1572,Cancelada
+1573,No Cancelada
+1574,Cancelada
+1575,Cancelada
+1576,Cancelada
+1577,Cancelada
+1578,Cancelada
+1579,No Cancelada
+1580,No Cancelada
+1581,Cancelada
+1582,Cancelada
+1583,Cancelada
+1584,Cancelada
+1585,Cancelada
+1586,Cancelada
+1587,No Cancelada
+1588,Cancelada
+1589,No Cancelada
+1590,Cancelada
+1591,Cancelada
+1592,Cancelada
+1593,Cancelada
+1594,Cancelada
+1595,Cancelada
+1596,Cancelada
+1597,Cancelada
+1598,No Cancelada
+1599,No Cancelada
+1600,Cancelada
+1601,No Cancelada
+1602,Cancelada
+1603,No Cancelada
+1604,Cancelada
+1605,Cancelada
+1606,Cancelada
+1607,No Cancelada
+1608,Cancelada
+1609,No Cancelada
+1610,Cancelada
+1611,No Cancelada
+1612,Cancelada
+1613,No Cancelada
+1614,Cancelada
+1615,Cancelada
+1616,No Cancelada
+1617,Cancelada
+1618,Cancelada
+1619,Cancelada
+1620,Cancelada
+1621,No Cancelada
+1622,No Cancelada
+1623,No Cancelada
+1624,No Cancelada
+1625,No Cancelada
+1626,No Cancelada
+1627,No Cancelada
+1628,No Cancelada
+1629,No Cancelada
+1630,Cancelada
+1631,No Cancelada
+1632,No Cancelada
+1633,Cancelada
+1634,Cancelada
+1635,Cancelada
+1636,No Cancelada
+1637,Cancelada
+1638,Cancelada
+1639,No Cancelada
+1640,Cancelada
+1641,No Cancelada
+1642,Cancelada
+1643,Cancelada
+1644,No Cancelada
+1645,No Cancelada
+1646,No Cancelada
+1647,Cancelada
+1648,No Cancelada
+1649,No Cancelada
+1650,No Cancelada
+1651,Cancelada
+1652,No Cancelada
+1653,Cancelada
+1654,No Cancelada
+1655,No Cancelada
+1656,Cancelada
+1657,No Cancelada
+1658,Cancelada
+1659,Cancelada
+1660,No Cancelada
+1661,Cancelada
+1662,Cancelada
+1663,No Cancelada
+1664,Cancelada
+1665,Cancelada
+1666,Cancelada
+1667,Cancelada
+1668,No Cancelada
+1669,Cancelada
+1670,No Cancelada
+1671,Cancelada
+1672,Cancelada
+1673,No Cancelada
+1674,Cancelada
+1675,No Cancelada
+1676,Cancelada
+1677,No Cancelada
+1678,No Cancelada
+1679,Cancelada
+1680,No Cancelada
+1681,No Cancelada
+1682,Cancelada
+1683,Cancelada
+1684,Cancelada
+1685,No Cancelada
+1686,Cancelada
+1687,No Cancelada
+1688,Cancelada
+1689,No Cancelada
+1690,Cancelada
+1691,No Cancelada
+1692,Cancelada
+1693,Cancelada
+1694,Cancelada
+1695,Cancelada
+1696,Cancelada
+1697,No Cancelada
+1698,Cancelada
+1699,Cancelada
+1700,No Cancelada
+1701,No Cancelada
+1702,No Cancelada
+1703,No Cancelada
+1704,Cancelada
+1705,No Cancelada
+1706,No Cancelada
+1707,Cancelada
+1708,Cancelada
+1709,Cancelada
+1710,Cancelada
+1711,Cancelada
+1712,No Cancelada
+1713,Cancelada
+1714,No Cancelada
+1715,No Cancelada
+1716,No Cancelada
+1717,Cancelada
+1718,Cancelada
+1719,Cancelada
+1720,Cancelada
+1721,Cancelada
+1722,Cancelada
+1723,Cancelada
+1724,Cancelada
+1725,No Cancelada
+1726,Cancelada
+1727,Cancelada
+1728,No Cancelada
+1729,No Cancelada
+1730,No Cancelada
+1731,Cancelada
+1732,No Cancelada
+1733,No Cancelada
+1734,No Cancelada
+1735,No Cancelada
+1736,Cancelada
+1737,No Cancelada
+1738,Cancelada
+1739,No Cancelada
+1740,No Cancelada
+1741,Cancelada
+1742,Cancelada
+1743,No Cancelada
+1744,No Cancelada
+1745,Cancelada
+1746,Cancelada
+1747,Cancelada
+1748,Cancelada
+1749,No Cancelada
+1750,Cancelada
+1751,No Cancelada
+1752,Cancelada
+1753,No Cancelada
+1754,Cancelada
+1755,No Cancelada
+1756,No Cancelada
+1757,Cancelada
+1758,Cancelada
+1759,Cancelada
+1760,Cancelada
+1761,Cancelada
+1762,Cancelada
+1763,No Cancelada
+1764,Cancelada
+1765,Cancelada
+1766,Cancelada
+1767,Cancelada
+1768,No Cancelada
+1769,No Cancelada
+1770,Cancelada
+1771,Cancelada
+1772,Cancelada
+1773,No Cancelada
+1774,No Cancelada
+1775,Cancelada
+1776,No Cancelada
+1777,No Cancelada
+1778,No Cancelada
+1779,Cancelada
+1780,No Cancelada
+1781,No Cancelada
+1782,Cancelada
+1783,Cancelada
+1784,No Cancelada
+1785,No Cancelada
+1786,Cancelada
+1787,Cancelada
+1788,Cancelada
+1789,No Cancelada
+1790,Cancelada
+1791,Cancelada
+1792,No Cancelada
+1793,Cancelada
+1794,Cancelada
+1795,Cancelada
+1796,No Cancelada
+1797,No Cancelada
+1798,No Cancelada
+1799,No Cancelada
+1800,Cancelada
+1801,No Cancelada
+1802,Cancelada
+1803,No Cancelada
+1804,Cancelada
+1805,Cancelada
+1806,Cancelada
+1807,No Cancelada
+1808,No Cancelada
+1809,No Cancelada
+1810,No Cancelada
+1811,Cancelada
+1812,Cancelada
+1813,Cancelada
+1814,Cancelada
+1815,Cancelada
+1816,No Cancelada
+1817,No Cancelada
+1818,Cancelada
+1819,Cancelada
+1820,Cancelada
+1821,No Cancelada
+1822,No Cancelada
+1823,Cancelada
+1824,Cancelada
+1825,No Cancelada
+1826,No Cancelada
+1827,Cancelada
+1828,Cancelada
+1829,Cancelada
+1830,No Cancelada
+1831,Cancelada
+1832,No Cancelada
+1833,No Cancelada
+1834,No Cancelada
+1835,Cancelada
+1836,Cancelada
+1837,Cancelada
+1838,Cancelada
+1839,Cancelada
+1840,No Cancelada
+1841,No Cancelada
+1842,Cancelada
+1843,No Cancelada
+1844,Cancelada
+1845,No Cancelada
+1846,Cancelada
+1847,No Cancelada
+1848,No Cancelada
+1849,Cancelada
+1850,Cancelada
+1851,No Cancelada
+1852,No Cancelada
+1853,Cancelada
+1854,Cancelada
+1855,No Cancelada
+1856,Cancelada
+1857,No Cancelada
+1858,Cancelada
+1859,Cancelada
+1860,Cancelada
+1861,Cancelada
+1862,No Cancelada
+1863,No Cancelada
+1864,Cancelada
+1865,Cancelada
+1866,No Cancelada
+1867,Cancelada
+1868,No Cancelada
+1869,No Cancelada
+1870,Cancelada
+1871,Cancelada
+1872,No Cancelada
+1873,Cancelada
+1874,Cancelada
+1875,No Cancelada
+1876,Cancelada
+1877,Cancelada
+1878,Cancelada
+1879,Cancelada
+1880,No Cancelada
+1881,No Cancelada
+1882,Cancelada
+1883,Cancelada
+1884,Cancelada
+1885,No Cancelada
+1886,Cancelada
+1887,Cancelada
+1888,No Cancelada
+1889,No Cancelada
+1890,No Cancelada
+1891,No Cancelada
+1892,Cancelada
+1893,Cancelada
+1894,Cancelada
+1895,Cancelada
+1896,Cancelada
+1897,No Cancelada
+1898,Cancelada
+1899,Cancelada
+1900,No Cancelada
+1901,No Cancelada
+1902,No Cancelada
+1903,Cancelada
+1904,Cancelada
+1905,Cancelada
+1906,No Cancelada
+1907,No Cancelada
+1908,Cancelada
+1909,No Cancelada
+1910,Cancelada
+1911,No Cancelada
+1912,No Cancelada
+1913,No Cancelada
+1914,Cancelada
+1915,Cancelada
+1916,Cancelada
+1917,No Cancelada
+1918,Cancelada
+1919,No Cancelada
+1920,Cancelada
+1921,No Cancelada
+1922,No Cancelada
+1923,No Cancelada
+1924,Cancelada
+1925,Cancelada
+1926,No Cancelada
+1927,No Cancelada
+1928,Cancelada
+1929,No Cancelada
+1930,No Cancelada
+1931,Cancelada
+1932,No Cancelada
+1933,Cancelada
+1934,No Cancelada
+1935,Cancelada
+1936,No Cancelada
+1937,Cancelada
+1938,Cancelada
+1939,Cancelada
+1940,Cancelada
+1941,Cancelada
+1942,No Cancelada
+1943,No Cancelada
+1944,No Cancelada
+1945,No Cancelada
+1946,No Cancelada
+1947,No Cancelada
+1948,No Cancelada
+1949,Cancelada
+1950,Cancelada
+1951,No Cancelada
+1952,Cancelada
+1953,No Cancelada
+1954,No Cancelada
+1955,No Cancelada
+1956,No Cancelada
+1957,No Cancelada
+1958,No Cancelada
+1959,No Cancelada
+1960,No Cancelada
+1961,No Cancelada
+1962,Cancelada
+1963,No Cancelada
+1964,No Cancelada
+1965,No Cancelada
+1966,No Cancelada
+1967,Cancelada
+1968,No Cancelada
+1969,No Cancelada
+1970,No Cancelada
+1971,No Cancelada
+1972,No Cancelada
+1973,Cancelada
+1974,Cancelada
+1975,Cancelada
+1976,No Cancelada
+1977,No Cancelada
+1978,Cancelada
+1979,No Cancelada
+1980,No Cancelada
+1981,Cancelada
+1982,Cancelada
+1983,No Cancelada
+1984,No Cancelada
+1985,No Cancelada
+1986,Cancelada
+1987,Cancelada
+1988,No Cancelada
+1989,No Cancelada
+1990,Cancelada
+1991,No Cancelada
+1992,No Cancelada
+1993,No Cancelada
+1994,Cancelada
+1995,No Cancelada
+1996,Cancelada
+1997,Cancelada
+1998,Cancelada
+1999,No Cancelada
+2000,Cancelada
+2001,Cancelada
+2002,Cancelada
+2003,No Cancelada
+2004,No Cancelada
+2005,No Cancelada
+2006,Cancelada
+2007,No Cancelada
+2008,Cancelada
+2009,No Cancelada
+2010,No Cancelada
+2011,Cancelada
+2012,No Cancelada
+2013,No Cancelada
+2014,Cancelada
+2015,Cancelada
+2016,Cancelada
+2017,No Cancelada
+2018,Cancelada
+2019,Cancelada
+2020,Cancelada
+2021,No Cancelada
+2022,No Cancelada
+2023,Cancelada
+2024,No Cancelada
+2025,Cancelada
+2026,No Cancelada
+2027,Cancelada
+2028,Cancelada
+2029,Cancelada
+2030,No Cancelada
+2031,Cancelada
+2032,No Cancelada
+2033,No Cancelada
+2034,No Cancelada
+2035,Cancelada
+2036,No Cancelada
+2037,Cancelada
+2038,No Cancelada
+2039,Cancelada
+2040,No Cancelada
+2041,No Cancelada
+2042,No Cancelada
+2043,No Cancelada
+2044,No Cancelada
+2045,No Cancelada
+2046,No Cancelada
+2047,Cancelada
+2048,Cancelada
+2049,No Cancelada
+2050,No Cancelada
+2051,Cancelada
+2052,No Cancelada
+2053,Cancelada
+2054,No Cancelada
+2055,Cancelada
+2056,Cancelada
+2057,Cancelada
+2058,Cancelada
+2059,No Cancelada
+2060,Cancelada
+2061,Cancelada
+2062,No Cancelada
+2063,No Cancelada
+2064,Cancelada
+2065,No Cancelada
+2066,Cancelada
+2067,Cancelada
+2068,No Cancelada
+2069,No Cancelada
+2070,Cancelada
+2071,No Cancelada
+2072,No Cancelada
+2073,No Cancelada
+2074,Cancelada
+2075,No Cancelada
+2076,Cancelada
+2077,Cancelada
+2078,Cancelada
+2079,Cancelada
+2080,No Cancelada
+2081,No Cancelada
+2082,Cancelada
+2083,No Cancelada
+2084,Cancelada
+2085,No Cancelada
+2086,Cancelada
+2087,Cancelada
+2088,Cancelada
+2089,No Cancelada
+2090,Cancelada
+2091,No Cancelada
+2092,No Cancelada
+2093,Cancelada
+2094,Cancelada
+2095,Cancelada
+2096,No Cancelada
+2097,No Cancelada
+2098,No Cancelada
+2099,Cancelada
+2100,No Cancelada
+2101,Cancelada
+2102,Cancelada
+2103,Cancelada
+2104,Cancelada
+2105,No Cancelada
+2106,Cancelada
+2107,No Cancelada
+2108,No Cancelada
+2109,Cancelada
+2110,No Cancelada
+2111,No Cancelada
+2112,No Cancelada
+2113,No Cancelada
+2114,Cancelada
+2115,No Cancelada
+2116,No Cancelada
+2117,Cancelada
+2118,No Cancelada
+2119,Cancelada
+2120,Cancelada
+2121,Cancelada
+2122,Cancelada
+2123,Cancelada
+2124,Cancelada
+2125,Cancelada
+2126,Cancelada
+2127,No Cancelada
+2128,Cancelada
+2129,No Cancelada
+2130,Cancelada
+2131,Cancelada
+2132,No Cancelada
+2133,No Cancelada
+2134,Cancelada
+2135,No Cancelada
+2136,Cancelada
+2137,No Cancelada
+2138,No Cancelada
+2139,Cancelada
+2140,No Cancelada
+2141,No Cancelada
+2142,Cancelada
+2143,No Cancelada
+2144,No Cancelada
+2145,No Cancelada
+2146,No Cancelada
+2147,No Cancelada
+2148,No Cancelada
+2149,No Cancelada
+2150,Cancelada
+2151,Cancelada
+2152,Cancelada
+2153,No Cancelada
+2154,Cancelada
+2155,Cancelada
+2156,Cancelada
+2157,No Cancelada
+2158,No Cancelada
+2159,Cancelada
+2160,No Cancelada
+2161,No Cancelada
+2162,Cancelada
+2163,Cancelada
+2164,No Cancelada
+2165,No Cancelada
+2166,No Cancelada
+2167,Cancelada
+2168,No Cancelada
+2169,Cancelada
+2170,Cancelada
+2171,No Cancelada
+2172,No Cancelada
+2173,No Cancelada
+2174,Cancelada
+2175,No Cancelada
+2176,No Cancelada
+2177,Cancelada
+2178,No Cancelada
+2179,Cancelada
+2180,Cancelada
+2181,Cancelada
+2182,No Cancelada
+2183,Cancelada
+2184,Cancelada
+2185,Cancelada
+2186,Cancelada
+2187,No Cancelada
+2188,Cancelada
+2189,Cancelada
+2190,No Cancelada
+2191,No Cancelada
+2192,No Cancelada
+2193,No Cancelada
+2194,No Cancelada
+2195,No Cancelada
+2196,Cancelada
+2197,No Cancelada
+2198,Cancelada
+2199,No Cancelada
+2200,Cancelada
+2201,Cancelada
+2202,No Cancelada
+2203,No Cancelada
+2204,Cancelada
+2205,No Cancelada
+2206,No Cancelada
+2207,No Cancelada
+2208,No Cancelada
+2209,No Cancelada
+2210,Cancelada
+2211,No Cancelada
+2212,No Cancelada
+2213,No Cancelada
+2214,Cancelada
+2215,Cancelada
+2216,No Cancelada
+2217,No Cancelada
+2218,Cancelada
+2219,No Cancelada
+2220,Cancelada
+2221,Cancelada
+2222,No Cancelada
+2223,No Cancelada
+2224,No Cancelada
+2225,Cancelada
+2226,Cancelada
+2227,Cancelada
+2228,No Cancelada
+2229,Cancelada
+2230,No Cancelada
+2231,Cancelada
+2232,Cancelada
+2233,Cancelada
+2234,Cancelada
+2235,Cancelada
+2236,Cancelada
+2237,Cancelada
+2238,No Cancelada
+2239,No Cancelada
+2240,No Cancelada
+2241,Cancelada
+2242,Cancelada
+2243,Cancelada
+2244,Cancelada
+2245,No Cancelada
+2246,No Cancelada
+2247,Cancelada
+2248,No Cancelada
+2249,No Cancelada
+2250,Cancelada
+2251,No Cancelada
+2252,No Cancelada
+2253,Cancelada
+2254,Cancelada
+2255,Cancelada
+2256,Cancelada
+2257,Cancelada
+2258,Cancelada
+2259,No Cancelada
+2260,No Cancelada
+2261,Cancelada
+2262,Cancelada
+2263,Cancelada
+2264,Cancelada
+2265,No Cancelada
+2266,No Cancelada
+2267,No Cancelada
+2268,Cancelada
+2269,No Cancelada
+2270,No Cancelada
+2271,No Cancelada
+2272,No Cancelada
+2273,No Cancelada
+2274,Cancelada
+2275,Cancelada
+2276,No Cancelada
+2277,No Cancelada
+2278,Cancelada
+2279,Cancelada
+2280,Cancelada
+2281,No Cancelada
+2282,Cancelada
+2283,No Cancelada
+2284,No Cancelada
+2285,No Cancelada
+2286,Cancelada
+2287,Cancelada
+2288,No Cancelada
+2289,No Cancelada
+2290,No Cancelada
+2291,No Cancelada
+2292,Cancelada
+2293,Cancelada
+2294,Cancelada
+2295,No Cancelada
+2296,No Cancelada
+2297,No Cancelada
+2298,Cancelada
+2299,Cancelada
+2300,Cancelada
+2301,Cancelada
+2302,Cancelada
+2303,Cancelada
+2304,Cancelada
+2305,No Cancelada
+2306,Cancelada
+2307,Cancelada
+2308,No Cancelada
+2309,Cancelada
+2310,No Cancelada
+2311,No Cancelada
+2312,Cancelada
+2313,No Cancelada
+2314,Cancelada
+2315,Cancelada
+2316,Cancelada
+2317,No Cancelada
+2318,No Cancelada
+2319,No Cancelada
+2320,Cancelada
+2321,No Cancelada
+2322,No Cancelada
+2323,Cancelada
+2324,Cancelada
+2325,No Cancelada
+2326,No Cancelada
+2327,No Cancelada
+2328,No Cancelada
+2329,Cancelada
+2330,No Cancelada
+2331,Cancelada
+2332,No Cancelada
+2333,Cancelada
+2334,Cancelada
+2335,Cancelada
+2336,Cancelada
+2337,Cancelada
+2338,Cancelada
+2339,No Cancelada
+2340,No Cancelada
+2341,No Cancelada
+2342,No Cancelada
+2343,No Cancelada
+2344,No Cancelada
+2345,Cancelada
+2346,Cancelada
+2347,No Cancelada
+2348,Cancelada
+2349,No Cancelada
+2350,No Cancelada
+2351,No Cancelada
+2352,No Cancelada
+2353,No Cancelada
+2354,Cancelada
+2355,No Cancelada
+2356,No Cancelada
+2357,Cancelada
+2358,Cancelada
+2359,Cancelada
+2360,No Cancelada
+2361,Cancelada
+2362,Cancelada
+2363,No Cancelada
+2364,Cancelada
+2365,No Cancelada
+2366,Cancelada
+2367,No Cancelada
+2368,No Cancelada
+2369,Cancelada
+2370,Cancelada
+2371,Cancelada
+2372,No Cancelada
+2373,No Cancelada
+2374,No Cancelada
+2375,No Cancelada
+2376,No Cancelada
+2377,No Cancelada
+2378,Cancelada
+2379,No Cancelada
+2380,Cancelada
+2381,Cancelada
+2382,No Cancelada
+2383,Cancelada
+2384,Cancelada
+2385,No Cancelada
+2386,No Cancelada
+2387,Cancelada
+2388,No Cancelada
+2389,No Cancelada
+2390,No Cancelada
+2391,Cancelada
+2392,Cancelada
+2393,No Cancelada
+2394,Cancelada
+2395,Cancelada
+2396,Cancelada
+2397,Cancelada
+2398,Cancelada
+2399,No Cancelada
+2400,Cancelada
+2401,Cancelada
+2402,Cancelada
+2403,No Cancelada
+2404,Cancelada
+2405,Cancelada
+2406,No Cancelada
+2407,Cancelada
+2408,No Cancelada
+2409,No Cancelada
+2410,Cancelada
+2411,No Cancelada
+2412,Cancelada
+2413,Cancelada
+2414,No Cancelada
+2415,Cancelada
+2416,Cancelada
+2417,No Cancelada
+2418,Cancelada
+2419,Cancelada
+2420,Cancelada
+2421,No Cancelada
+2422,No Cancelada
+2423,Cancelada
+2424,Cancelada
+2425,No Cancelada
+2426,No Cancelada
+2427,Cancelada
+2428,Cancelada
+2429,No Cancelada
+2430,No Cancelada
+2431,Cancelada
+2432,No Cancelada
+2433,No Cancelada
+2434,No Cancelada
+2435,No Cancelada
+2436,No Cancelada
+2437,Cancelada
+2438,No Cancelada
+2439,Cancelada
+2440,Cancelada
+2441,No Cancelada
+2442,No Cancelada
+2443,No Cancelada
+2444,No Cancelada
+2445,No Cancelada
+2446,Cancelada
+2447,Cancelada
+2448,No Cancelada
+2449,Cancelada
+2450,Cancelada
+2451,Cancelada
+2452,No Cancelada
+2453,Cancelada
+2454,No Cancelada
+2455,Cancelada
+2456,Cancelada
+2457,No Cancelada
+2458,No Cancelada
+2459,Cancelada
+2460,Cancelada
+2461,Cancelada
+2462,No Cancelada
+2463,No Cancelada
+2464,No Cancelada
+2465,No Cancelada
+2466,No Cancelada
+2467,No Cancelada
+2468,No Cancelada
+2469,No Cancelada
+2470,No Cancelada
+2471,Cancelada
+2472,Cancelada
+2473,No Cancelada
+2474,No Cancelada
+2475,Cancelada
+2476,No Cancelada
+2477,Cancelada
+2478,Cancelada
+2479,No Cancelada
+2480,No Cancelada
+2481,No Cancelada
+2482,No Cancelada
+2483,Cancelada
+2484,No Cancelada
+2485,Cancelada
+2486,Cancelada
+2487,Cancelada
+2488,Cancelada
+2489,Cancelada
+2490,Cancelada
+2491,Cancelada
+2492,Cancelada
+2493,No Cancelada
+2494,Cancelada
+2495,Cancelada
+2496,No Cancelada
+2497,No Cancelada
+2498,Cancelada
+2499,Cancelada
+2500,Cancelada
+2501,Cancelada
+2502,No Cancelada
+2503,No Cancelada
+2504,Cancelada
+2505,No Cancelada
+2506,Cancelada
+2507,Cancelada
+2508,Cancelada
+2509,Cancelada
+2510,No Cancelada
+2511,Cancelada
+2512,No Cancelada
+2513,No Cancelada
+2514,No Cancelada
+2515,No Cancelada
+2516,Cancelada
+2517,No Cancelada
+2518,No Cancelada
+2519,Cancelada
+2520,No Cancelada
+2521,No Cancelada
+2522,No Cancelada
+2523,No Cancelada
+2524,Cancelada
+2525,Cancelada
+2526,No Cancelada
+2527,Cancelada
+2528,No Cancelada
+2529,Cancelada
+2530,Cancelada
+2531,No Cancelada
+2532,Cancelada
+2533,No Cancelada
+2534,Cancelada
+2535,Cancelada
+2536,No Cancelada
+2537,No Cancelada
+2538,No Cancelada
+2539,No Cancelada
+2540,No Cancelada
+2541,Cancelada
+2542,No Cancelada
+2543,No Cancelada
+2544,No Cancelada
+2545,No Cancelada
+2546,No Cancelada
+2547,No Cancelada
+2548,Cancelada
+2549,No Cancelada
+2550,No Cancelada
+2551,Cancelada
+2552,No Cancelada
+2553,Cancelada
+2554,Cancelada
+2555,Cancelada
+2556,Cancelada
+2557,Cancelada
+2558,Cancelada
+2559,No Cancelada
+2560,No Cancelada
+2561,Cancelada
+2562,Cancelada
+2563,No Cancelada
+2564,Cancelada
+2565,No Cancelada
+2566,Cancelada
+2567,Cancelada
+2568,No Cancelada
+2569,No Cancelada
+2570,No Cancelada
+2571,No Cancelada
+2572,No Cancelada
+2573,Cancelada
+2574,Cancelada
+2575,Cancelada
+2576,Cancelada
+2577,Cancelada
+2578,No Cancelada
+2579,No Cancelada
+2580,No Cancelada
+2581,Cancelada
+2582,No Cancelada
+2583,No Cancelada
+2584,No Cancelada
+2585,No Cancelada
+2586,No Cancelada
+2587,No Cancelada
+2588,No Cancelada
+2589,Cancelada
+2590,No Cancelada
+2591,Cancelada
+2592,No Cancelada
+2593,Cancelada
+2594,Cancelada
+2595,Cancelada
+2596,Cancelada
+2597,Cancelada
+2598,Cancelada
+2599,No Cancelada
+2600,No Cancelada
+2601,Cancelada
+2602,No Cancelada
+2603,Cancelada
+2604,Cancelada
+2605,No Cancelada
+2606,No Cancelada
+2607,No Cancelada
+2608,No Cancelada
+2609,No Cancelada
+2610,Cancelada
+2611,Cancelada
+2612,Cancelada
+2613,No Cancelada
+2614,Cancelada
+2615,Cancelada
+2616,No Cancelada
+2617,Cancelada
+2618,No Cancelada
+2619,Cancelada
+2620,Cancelada
+2621,Cancelada
+2622,Cancelada
+2623,Cancelada
+2624,No Cancelada
+2625,Cancelada
+2626,No Cancelada
+2627,No Cancelada
+2628,No Cancelada
+2629,No Cancelada
+2630,Cancelada
+2631,No Cancelada
+2632,No Cancelada
+2633,Cancelada
+2634,Cancelada
+2635,Cancelada
+2636,Cancelada
+2637,No Cancelada
+2638,Cancelada
+2639,No Cancelada
+2640,No Cancelada
+2641,Cancelada
+2642,Cancelada
+2643,No Cancelada
+2644,Cancelada
+2645,Cancelada
+2646,No Cancelada
+2647,Cancelada
+2648,Cancelada
+2649,No Cancelada
+2650,No Cancelada
+2651,Cancelada
+2652,No Cancelada
+2653,Cancelada
+2654,No Cancelada
+2655,Cancelada
+2656,Cancelada
+2657,Cancelada
+2658,No Cancelada
+2659,Cancelada
+2660,No Cancelada
+2661,Cancelada
+2662,No Cancelada
+2663,No Cancelada
+2664,No Cancelada
+2665,Cancelada
+2666,Cancelada
+2667,No Cancelada
+2668,Cancelada
+2669,Cancelada
+2670,Cancelada
+2671,Cancelada
+2672,No Cancelada
+2673,Cancelada
+2674,Cancelada
+2675,No Cancelada
+2676,Cancelada
+2677,Cancelada
+2678,Cancelada
+2679,Cancelada
+2680,Cancelada
+2681,Cancelada
+2682,No Cancelada
+2683,Cancelada
+2684,Cancelada
+2685,Cancelada
+2686,No Cancelada
+2687,Cancelada
+2688,No Cancelada
+2689,No Cancelada
+2690,Cancelada
+2691,Cancelada
+2692,Cancelada
+2693,Cancelada
+2694,No Cancelada
+2695,No Cancelada
+2696,No Cancelada
+2697,Cancelada
+2698,No Cancelada
+2699,Cancelada
+2700,Cancelada
+2701,No Cancelada
+2702,No Cancelada
+2703,No Cancelada
+2704,No Cancelada
+2705,No Cancelada
+2706,Cancelada
+2707,Cancelada
+2708,Cancelada
+2709,Cancelada
+2710,Cancelada
+2711,Cancelada
+2712,Cancelada
+2713,Cancelada
+2714,No Cancelada
+2715,No Cancelada
+2716,No Cancelada
+2717,Cancelada
+2718,No Cancelada
+2719,Cancelada
+2720,No Cancelada
+2721,Cancelada
+2722,Cancelada
+2723,Cancelada
+2724,No Cancelada
+2725,No Cancelada
+2726,Cancelada
+2727,Cancelada
+2728,No Cancelada
+2729,No Cancelada
+2730,Cancelada
+2731,Cancelada
+2732,Cancelada
+2733,No Cancelada
+2734,No Cancelada
+2735,No Cancelada
+2736,No Cancelada
+2737,Cancelada
+2738,No Cancelada
+2739,Cancelada
+2740,No Cancelada
+2741,Cancelada
+2742,Cancelada
+2743,Cancelada
+2744,Cancelada
+2745,Cancelada
+2746,No Cancelada
+2747,Cancelada
+2748,No Cancelada
+2749,Cancelada
+2750,No Cancelada
+2751,No Cancelada
+2752,Cancelada
+2753,Cancelada
+2754,Cancelada
+2755,Cancelada
+2756,No Cancelada
+2757,Cancelada
+2758,No Cancelada
+2759,No Cancelada
+2760,No Cancelada
+2761,Cancelada
+2762,Cancelada
+2763,No Cancelada
+2764,No Cancelada
+2765,No Cancelada
+2766,No Cancelada
+2767,Cancelada
+2768,No Cancelada
+2769,No Cancelada
+2770,Cancelada
+2771,Cancelada
+2772,No Cancelada
+2773,No Cancelada
+2774,No Cancelada
+2775,No Cancelada
+2776,Cancelada
+2777,No Cancelada
+2778,Cancelada
+2779,Cancelada
+2780,No Cancelada
+2781,Cancelada
+2782,No Cancelada
+2783,Cancelada
+2784,Cancelada
+2785,No Cancelada
+2786,No Cancelada
+2787,Cancelada
+2788,Cancelada
+2789,Cancelada
+2790,No Cancelada
+2791,Cancelada
+2792,Cancelada
+2793,No Cancelada
+2794,Cancelada
+2795,Cancelada
+2796,Cancelada
+2797,Cancelada
+2798,Cancelada
+2799,No Cancelada
+2800,No Cancelada
+2801,Cancelada
+2802,Cancelada
+2803,Cancelada
+2804,Cancelada
+2805,No Cancelada
+2806,Cancelada
+2807,No Cancelada
+2808,No Cancelada
+2809,Cancelada
+2810,Cancelada
+2811,Cancelada
+2812,No Cancelada
+2813,Cancelada
+2814,No Cancelada
+2815,Cancelada
+2816,Cancelada
+2817,No Cancelada
+2818,Cancelada
+2819,No Cancelada
+2820,Cancelada
+2821,Cancelada
+2822,No Cancelada
+2823,Cancelada
+2824,Cancelada
+2825,No Cancelada
+2826,Cancelada
+2827,No Cancelada
+2828,No Cancelada
+2829,Cancelada
+2830,Cancelada
+2831,No Cancelada
+2832,Cancelada
+2833,No Cancelada
+2834,Cancelada
+2835,Cancelada
+2836,Cancelada
+2837,Cancelada
+2838,Cancelada
+2839,Cancelada
+2840,No Cancelada
+2841,Cancelada
+2842,No Cancelada
+2843,No Cancelada
+2844,Cancelada
+2845,Cancelada
+2846,Cancelada
+2847,No Cancelada
+2848,Cancelada
+2849,No Cancelada
+2850,Cancelada
+2851,Cancelada
+2852,No Cancelada
+2853,No Cancelada
+2854,No Cancelada
+2855,Cancelada
+2856,No Cancelada
+2857,Cancelada
+2858,Cancelada
+2859,No Cancelada
+2860,Cancelada
+2861,Cancelada
+2862,Cancelada
+2863,Cancelada
+2864,Cancelada
+2865,Cancelada
+2866,No Cancelada
+2867,Cancelada
+2868,No Cancelada
+2869,No Cancelada
+2870,Cancelada
+2871,Cancelada
+2872,Cancelada
+2873,Cancelada
+2874,No Cancelada
+2875,Cancelada
+2876,No Cancelada
+2877,No Cancelada
+2878,Cancelada
+2879,No Cancelada
+2880,Cancelada
+2881,Cancelada
+2882,Cancelada
+2883,No Cancelada
+2884,Cancelada
+2885,No Cancelada
+2886,No Cancelada
+2887,No Cancelada
+2888,No Cancelada
+2889,Cancelada
+2890,Cancelada
+2891,No Cancelada
+2892,Cancelada
+2893,Cancelada
+2894,Cancelada
+2895,Cancelada
+2896,No Cancelada
+2897,Cancelada
+2898,No Cancelada
+2899,No Cancelada
+2900,Cancelada
+2901,Cancelada
+2902,Cancelada
+2903,No Cancelada
+2904,Cancelada
+2905,Cancelada
+2906,Cancelada
+2907,No Cancelada
+2908,Cancelada
+2909,No Cancelada
+2910,Cancelada
+2911,No Cancelada
+2912,Cancelada
+2913,Cancelada
+2914,No Cancelada
+2915,No Cancelada
+2916,No Cancelada
+2917,No Cancelada
+2918,No Cancelada
+2919,No Cancelada
+2920,Cancelada
+2921,Cancelada
+2922,No Cancelada
+2923,Cancelada
+2924,Cancelada
+2925,Cancelada
+2926,No Cancelada
+2927,Cancelada
+2928,No Cancelada
+2929,No Cancelada
+2930,Cancelada
+2931,No Cancelada
+2932,No Cancelada
+2933,No Cancelada
+2934,Cancelada
+2935,Cancelada
+2936,Cancelada
+2937,No Cancelada
+2938,No Cancelada
+2939,Cancelada
+2940,No Cancelada
+2941,Cancelada
+2942,No Cancelada
+2943,Cancelada
+2944,No Cancelada
+2945,Cancelada
+2946,Cancelada
+2947,Cancelada
+2948,No Cancelada
+2949,Cancelada
+2950,Cancelada
+2951,Cancelada
+2952,No Cancelada
+2953,No Cancelada
+2954,No Cancelada
+2955,Cancelada
+2956,Cancelada
+2957,Cancelada
+2958,No Cancelada
+2959,Cancelada
+2960,Cancelada
+2961,No Cancelada
+2962,No Cancelada
+2963,Cancelada
+2964,Cancelada
+2965,Cancelada
+2966,No Cancelada
+2967,No Cancelada
+2968,No Cancelada
+2969,Cancelada
+2970,Cancelada
+2971,Cancelada
+2972,Cancelada
+2973,Cancelada
+2974,Cancelada
+2975,No Cancelada
+2976,Cancelada
+2977,No Cancelada
+2978,No Cancelada
+2979,No Cancelada
+2980,Cancelada
+2981,Cancelada
+2982,Cancelada
+2983,No Cancelada
+2984,Cancelada
+2985,No Cancelada
+2986,No Cancelada
+2987,No Cancelada
+2988,No Cancelada
+2989,No Cancelada
+2990,No Cancelada
+2991,Cancelada
+2992,No Cancelada
+2993,Cancelada
+2994,Cancelada
+2995,Cancelada
+2996,No Cancelada
+2997,Cancelada
+2998,No Cancelada
+2999,Cancelada
+3000,No Cancelada
+3001,Cancelada
+3002,No Cancelada
+3003,Cancelada
+3004,No Cancelada
+3005,No Cancelada
+3006,Cancelada
+3007,Cancelada
+3008,No Cancelada
+3009,Cancelada
+3010,No Cancelada
+3011,Cancelada
+3012,No Cancelada
+3013,Cancelada
+3014,Cancelada
+3015,Cancelada
+3016,No Cancelada
+3017,No Cancelada
+3018,Cancelada
+3019,Cancelada
+3020,No Cancelada
+3021,Cancelada
+3022,No Cancelada
+3023,No Cancelada
+3024,No Cancelada
+3025,No Cancelada
+3026,Cancelada
+3027,Cancelada
+3028,Cancelada
+3029,Cancelada
+3030,No Cancelada
+3031,Cancelada
+3032,Cancelada
+3033,Cancelada
+3034,Cancelada
+3035,No Cancelada
+3036,No Cancelada
+3037,No Cancelada
+3038,No Cancelada
+3039,No Cancelada
+3040,No Cancelada
+3041,Cancelada
+3042,Cancelada
+3043,Cancelada
+3044,No Cancelada
+3045,Cancelada
+3046,Cancelada
+3047,No Cancelada
+3048,Cancelada
+3049,No Cancelada
+3050,Cancelada
+3051,Cancelada
+3052,No Cancelada
+3053,No Cancelada
+3054,No Cancelada
+3055,No Cancelada
+3056,No Cancelada
+3057,Cancelada
+3058,No Cancelada
+3059,No Cancelada
+3060,No Cancelada
+3061,Cancelada
+3062,Cancelada
+3063,Cancelada
+3064,No Cancelada
+3065,Cancelada
+3066,No Cancelada
+3067,No Cancelada
+3068,Cancelada
+3069,Cancelada
+3070,Cancelada
+3071,Cancelada
+3072,Cancelada
+3073,Cancelada
+3074,Cancelada
+3075,Cancelada
+3076,No Cancelada
+3077,Cancelada
+3078,Cancelada
+3079,No Cancelada
+3080,Cancelada
+3081,No Cancelada
+3082,No Cancelada
+3083,No Cancelada
+3084,Cancelada
+3085,Cancelada
+3086,No Cancelada
+3087,No Cancelada
+3088,Cancelada
+3089,Cancelada
+3090,Cancelada
+3091,No Cancelada
+3092,No Cancelada
+3093,No Cancelada
+3094,No Cancelada
+3095,Cancelada
+3096,Cancelada
+3097,Cancelada
+3098,No Cancelada
+3099,No Cancelada
+3100,Cancelada
+3101,No Cancelada
+3102,No Cancelada
+3103,Cancelada
+3104,Cancelada
+3105,No Cancelada
+3106,Cancelada
+3107,Cancelada
+3108,Cancelada
+3109,Cancelada
+3110,Cancelada
+3111,No Cancelada
+3112,Cancelada
+3113,No Cancelada
+3114,Cancelada
+3115,No Cancelada
+3116,Cancelada
+3117,No Cancelada
+3118,Cancelada
+3119,No Cancelada
+3120,No Cancelada
+3121,Cancelada
+3122,No Cancelada
+3123,No Cancelada
+3124,Cancelada
+3125,Cancelada
+3126,No Cancelada
+3127,Cancelada
+3128,Cancelada
+3129,Cancelada
+3130,No Cancelada
+3131,Cancelada
+3132,Cancelada
+3133,Cancelada
+3134,No Cancelada
+3135,No Cancelada
+3136,Cancelada
+3137,Cancelada
+3138,Cancelada
+3139,Cancelada
+3140,Cancelada
+3141,No Cancelada
+3142,Cancelada
+3143,No Cancelada
+3144,No Cancelada
+3145,No Cancelada
+3146,Cancelada
+3147,Cancelada
+3148,Cancelada
+3149,Cancelada
+3150,Cancelada
+3151,Cancelada
+3152,No Cancelada
+3153,No Cancelada
+3154,Cancelada
+3155,No Cancelada
+3156,No Cancelada
+3157,Cancelada
+3158,Cancelada
+3159,No Cancelada
+3160,Cancelada
+3161,Cancelada
+3162,No Cancelada
+3163,Cancelada
+3164,No Cancelada
+3165,No Cancelada
+3166,Cancelada
+3167,No Cancelada
+3168,No Cancelada
+3169,Cancelada
+3170,Cancelada
+3171,No Cancelada
+3172,No Cancelada
+3173,No Cancelada
+3174,No Cancelada
+3175,Cancelada
+3176,Cancelada
+3177,No Cancelada
+3178,No Cancelada
+3179,No Cancelada
+3180,Cancelada
+3181,Cancelada
+3182,No Cancelada
+3183,Cancelada
+3184,Cancelada
+3185,Cancelada
+3186,No Cancelada
+3187,Cancelada
+3188,No Cancelada
+3189,Cancelada
+3190,Cancelada
+3191,No Cancelada
+3192,No Cancelada
+3193,Cancelada
+3194,No Cancelada
+3195,No Cancelada
+3196,Cancelada
+3197,Cancelada
+3198,No Cancelada
+3199,Cancelada
+3200,Cancelada
+3201,No Cancelada
+3202,Cancelada
+3203,No Cancelada
+3204,Cancelada
+3205,No Cancelada
+3206,No Cancelada
+3207,No Cancelada
+3208,No Cancelada
+3209,No Cancelada
+3210,No Cancelada
+3211,Cancelada
+3212,No Cancelada
+3213,Cancelada
+3214,No Cancelada
+3215,No Cancelada
+3216,Cancelada
+3217,Cancelada
+3218,No Cancelada
+3219,Cancelada
+3220,No Cancelada
+3221,Cancelada
+3222,No Cancelada
+3223,No Cancelada
+3224,Cancelada
+3225,No Cancelada
+3226,No Cancelada
+3227,No Cancelada
+3228,No Cancelada
+3229,No Cancelada
+3230,Cancelada
+3231,No Cancelada
+3232,No Cancelada
+3233,No Cancelada
+3234,Cancelada
+3235,Cancelada
+3236,Cancelada
+3237,No Cancelada
+3238,Cancelada
+3239,No Cancelada
+3240,Cancelada
+3241,No Cancelada
+3242,Cancelada
+3243,Cancelada
+3244,Cancelada
+3245,Cancelada
+3246,Cancelada
+3247,Cancelada
+3248,Cancelada
+3249,Cancelada
+3250,No Cancelada
+3251,No Cancelada
+3252,Cancelada
+3253,No Cancelada
+3254,Cancelada
+3255,No Cancelada
+3256,No Cancelada
+3257,Cancelada
+3258,Cancelada
+3259,No Cancelada
+3260,No Cancelada
+3261,Cancelada
+3262,Cancelada
+3263,Cancelada
+3264,Cancelada
+3265,No Cancelada
+3266,Cancelada
+3267,No Cancelada
+3268,No Cancelada
+3269,No Cancelada
+3270,No Cancelada
+3271,No Cancelada
+3272,No Cancelada
+3273,No Cancelada
+3274,Cancelada
+3275,No Cancelada
+3276,Cancelada
+3277,No Cancelada
+3278,Cancelada
+3279,No Cancelada
+3280,Cancelada
+3281,Cancelada
+3282,Cancelada
+3283,Cancelada
+3284,Cancelada
+3285,Cancelada
+3286,Cancelada
+3287,Cancelada
+3288,No Cancelada
+3289,Cancelada
+3290,No Cancelada
+3291,Cancelada
+3292,No Cancelada
+3293,No Cancelada
+3294,Cancelada
+3295,Cancelada
+3296,No Cancelada
+3297,Cancelada
+3298,Cancelada
+3299,No Cancelada
+3300,No Cancelada
+3301,Cancelada
+3302,Cancelada
+3303,Cancelada
+3304,No Cancelada
+3305,No Cancelada
+3306,Cancelada
+3307,Cancelada
+3308,Cancelada
+3309,Cancelada
+3310,Cancelada
+3311,Cancelada
+3312,No Cancelada
+3313,No Cancelada
+3314,Cancelada
+3315,Cancelada
+3316,Cancelada
+3317,Cancelada
+3318,No Cancelada
+3319,Cancelada
+3320,Cancelada
+3321,Cancelada
+3322,Cancelada
+3323,No Cancelada
+3324,No Cancelada
+3325,No Cancelada
+3326,Cancelada
+3327,No Cancelada
+3328,No Cancelada
+3329,No Cancelada
+3330,No Cancelada
+3331,No Cancelada
+3332,No Cancelada
+3333,No Cancelada
+3334,Cancelada
+3335,Cancelada
+3336,Cancelada
+3337,No Cancelada
+3338,Cancelada
+3339,Cancelada
+3340,No Cancelada
+3341,No Cancelada
+3342,Cancelada
+3343,Cancelada
+3344,Cancelada
+3345,No Cancelada
+3346,Cancelada
+3347,No Cancelada
+3348,No Cancelada
+3349,Cancelada
+3350,Cancelada
+3351,Cancelada
+3352,No Cancelada
+3353,Cancelada
+3354,Cancelada
+3355,Cancelada
+3356,No Cancelada
+3357,Cancelada
+3358,Cancelada
+3359,No Cancelada
+3360,No Cancelada
+3361,Cancelada
+3362,Cancelada
+3363,Cancelada
+3364,No Cancelada
+3365,Cancelada
+3366,Cancelada
+3367,Cancelada
+3368,Cancelada
+3369,No Cancelada
+3370,Cancelada
+3371,Cancelada
+3372,Cancelada
+3373,No Cancelada
+3374,Cancelada
+3375,No Cancelada
+3376,No Cancelada
+3377,Cancelada
+3378,No Cancelada
+3379,Cancelada
+3380,Cancelada
+3381,Cancelada
+3382,No Cancelada
+3383,No Cancelada
+3384,Cancelada
+3385,No Cancelada
+3386,No Cancelada
+3387,No Cancelada
+3388,No Cancelada
+3389,No Cancelada
+3390,Cancelada
+3391,Cancelada
+3392,No Cancelada
+3393,Cancelada
+3394,Cancelada
+3395,Cancelada
+3396,No Cancelada
+3397,Cancelada
+3398,No Cancelada
+3399,Cancelada
+3400,No Cancelada
+3401,No Cancelada
+3402,No Cancelada
+3403,Cancelada
+3404,No Cancelada
+3405,Cancelada
+3406,No Cancelada
+3407,No Cancelada
+3408,No Cancelada
+3409,Cancelada
+3410,Cancelada
+3411,Cancelada
+3412,No Cancelada
+3413,Cancelada
+3414,Cancelada
+3415,Cancelada
+3416,No Cancelada
+3417,No Cancelada
+3418,No Cancelada
+3419,Cancelada
+3420,No Cancelada
+3421,No Cancelada
+3422,Cancelada
+3423,Cancelada
+3424,No Cancelada
+3425,Cancelada
+3426,No Cancelada
+3427,No Cancelada
+3428,Cancelada
+3429,Cancelada
+3430,Cancelada
+3431,No Cancelada
+3432,No Cancelada
+3433,No Cancelada
+3434,No Cancelada
+3435,Cancelada
+3436,Cancelada
+3437,No Cancelada
+3438,Cancelada
+3439,No Cancelada
+3440,No Cancelada
+3441,No Cancelada
+3442,Cancelada
+3443,No Cancelada
+3444,Cancelada
+3445,Cancelada
+3446,Cancelada
+3447,No Cancelada
+3448,No Cancelada
+3449,No Cancelada
+3450,No Cancelada
+3451,Cancelada
+3452,No Cancelada
+3453,No Cancelada
+3454,Cancelada
+3455,Cancelada
+3456,No Cancelada
+3457,Cancelada
+3458,No Cancelada
+3459,No Cancelada
+3460,Cancelada
+3461,No Cancelada
+3462,No Cancelada
+3463,Cancelada
+3464,Cancelada
+3465,Cancelada
+3466,Cancelada
+3467,No Cancelada
+3468,Cancelada
+3469,Cancelada
+3470,No Cancelada
+3471,Cancelada
+3472,No Cancelada
+3473,No Cancelada
+3474,No Cancelada
+3475,No Cancelada
+3476,No Cancelada
+3477,Cancelada
+3478,Cancelada
+3479,Cancelada
+3480,Cancelada
+3481,No Cancelada
+3482,Cancelada
+3483,Cancelada
+3484,Cancelada
+3485,Cancelada
+3486,Cancelada
+3487,No Cancelada
+3488,Cancelada
+3489,No Cancelada
+3490,Cancelada
+3491,Cancelada
+3492,No Cancelada
+3493,No Cancelada
+3494,Cancelada
+3495,No Cancelada
+3496,No Cancelada
+3497,Cancelada
+3498,Cancelada
+3499,Cancelada
+3500,No Cancelada
+3501,No Cancelada
+3502,No Cancelada
+3503,Cancelada
+3504,Cancelada
+3505,No Cancelada
+3506,No Cancelada
+3507,No Cancelada
+3508,Cancelada
+3509,No Cancelada
+3510,No Cancelada
+3511,No Cancelada
+3512,Cancelada
+3513,Cancelada
+3514,No Cancelada
+3515,Cancelada
+3516,No Cancelada
+3517,Cancelada
+3518,Cancelada
+3519,Cancelada
+3520,No Cancelada
+3521,No Cancelada
+3522,Cancelada
+3523,No Cancelada
+3524,No Cancelada
+3525,Cancelada
+3526,No Cancelada
+3527,No Cancelada
+3528,Cancelada
+3529,Cancelada
+3530,Cancelada
+3531,No Cancelada
+3532,Cancelada
+3533,No Cancelada
+3534,Cancelada
+3535,Cancelada
+3536,No Cancelada
+3537,Cancelada
+3538,No Cancelada
+3539,Cancelada
+3540,Cancelada
+3541,Cancelada
+3542,No Cancelada
+3543,Cancelada
+3544,No Cancelada
+3545,No Cancelada
+3546,Cancelada
+3547,Cancelada
+3548,No Cancelada
+3549,No Cancelada
+3550,No Cancelada
+3551,Cancelada
+3552,No Cancelada
+3553,No Cancelada
+3554,Cancelada
+3555,Cancelada
+3556,Cancelada
+3557,No Cancelada
+3558,Cancelada
+3559,No Cancelada
+3560,No Cancelada
+3561,Cancelada
+3562,Cancelada
+3563,Cancelada
+3564,No Cancelada
+3565,Cancelada
+3566,No Cancelada
+3567,No Cancelada
+3568,Cancelada
+3569,Cancelada
+3570,No Cancelada
+3571,No Cancelada
+3572,No Cancelada
+3573,Cancelada
+3574,Cancelada
+3575,No Cancelada
+3576,Cancelada
+3577,Cancelada
+3578,Cancelada
+3579,Cancelada
+3580,Cancelada
+3581,No Cancelada
+3582,No Cancelada
+3583,Cancelada
+3584,Cancelada
+3585,Cancelada
+3586,Cancelada
+3587,Cancelada
+3588,No Cancelada
+3589,No Cancelada
+3590,Cancelada
+3591,No Cancelada
+3592,No Cancelada
+3593,No Cancelada
+3594,Cancelada
+3595,No Cancelada
+3596,Cancelada
+3597,No Cancelada
+3598,Cancelada
+3599,No Cancelada
+3600,No Cancelada
+3601,Cancelada
+3602,No Cancelada
+3603,Cancelada
+3604,No Cancelada
+3605,No Cancelada
+3606,No Cancelada
+3607,Cancelada
+3608,No Cancelada
+3609,Cancelada
+3610,No Cancelada
+3611,Cancelada
+3612,Cancelada
+3613,No Cancelada
+3614,No Cancelada
+3615,Cancelada
+3616,Cancelada
+3617,Cancelada
+3618,No Cancelada
+3619,Cancelada
+3620,Cancelada
+3621,Cancelada
+3622,No Cancelada
+3623,No Cancelada
+3624,Cancelada
+3625,No Cancelada
+3626,Cancelada
+3627,Cancelada
+3628,No Cancelada
+3629,Cancelada
+3630,Cancelada
+3631,No Cancelada
+3632,No Cancelada
+3633,No Cancelada
+3634,Cancelada
+3635,No Cancelada
+3636,No Cancelada
+3637,Cancelada
+3638,No Cancelada
+3639,No Cancelada
+3640,Cancelada
+3641,Cancelada
+3642,No Cancelada
+3643,Cancelada
+3644,Cancelada
+3645,Cancelada
+3646,No Cancelada
+3647,No Cancelada
+3648,No Cancelada
+3649,Cancelada
+3650,No Cancelada
+3651,Cancelada
+3652,No Cancelada
+3653,No Cancelada
+3654,Cancelada
+3655,Cancelada
+3656,Cancelada
+3657,No Cancelada
+3658,Cancelada
+3659,Cancelada
+3660,Cancelada
+3661,No Cancelada
+3662,Cancelada
+3663,Cancelada
+3664,Cancelada
+3665,No Cancelada
+3666,No Cancelada
+3667,Cancelada
+3668,Cancelada
+3669,Cancelada
+3670,No Cancelada
+3671,No Cancelada
+3672,No Cancelada
+3673,No Cancelada
+3674,No Cancelada
+3675,Cancelada
+3676,No Cancelada
+3677,No Cancelada
+3678,Cancelada
+3679,No Cancelada
+3680,No Cancelada
+3681,No Cancelada
+3682,No Cancelada
+3683,Cancelada
+3684,No Cancelada
+3685,No Cancelada
+3686,Cancelada
+3687,Cancelada
+3688,No Cancelada
+3689,No Cancelada
+3690,No Cancelada
+3691,Cancelada
+3692,No Cancelada
+3693,Cancelada
+3694,Cancelada
+3695,Cancelada
+3696,Cancelada
+3697,Cancelada
+3698,No Cancelada
+3699,No Cancelada
+3700,Cancelada
+3701,No Cancelada
+3702,No Cancelada
+3703,No Cancelada
+3704,Cancelada
+3705,No Cancelada
+3706,Cancelada
+3707,Cancelada
+3708,No Cancelada
+3709,Cancelada
+3710,No Cancelada
+3711,No Cancelada
+3712,Cancelada
+3713,No Cancelada
+3714,Cancelada
+3715,Cancelada
+3716,No Cancelada
+3717,No Cancelada
+3718,Cancelada
+3719,No Cancelada
+3720,No Cancelada
+3721,Cancelada
+3722,No Cancelada
+3723,No Cancelada
+3724,No Cancelada
+3725,No Cancelada
+3726,Cancelada
+3727,Cancelada
+3728,No Cancelada
+3729,No Cancelada
+3730,No Cancelada
+3731,No Cancelada
+3732,No Cancelada
+3733,Cancelada
+3734,No Cancelada
+3735,No Cancelada
+3736,Cancelada
+3737,No Cancelada
+3738,Cancelada
+3739,No Cancelada
+3740,Cancelada
+3741,No Cancelada
+3742,Cancelada
+3743,Cancelada
+3744,No Cancelada
+3745,No Cancelada
+3746,No Cancelada
+3747,No Cancelada
+3748,Cancelada
+3749,Cancelada
+3750,No Cancelada
+3751,Cancelada
+3752,Cancelada
+3753,No Cancelada
+3754,Cancelada
+3755,No Cancelada
+3756,No Cancelada
+3757,Cancelada
+3758,Cancelada
+3759,Cancelada
+3760,No Cancelada
+3761,Cancelada
+3762,Cancelada
+3763,Cancelada
+3764,No Cancelada
+3765,Cancelada
+3766,Cancelada
+3767,No Cancelada
+3768,No Cancelada
+3769,Cancelada
+3770,No Cancelada
+3771,Cancelada
+3772,Cancelada
+3773,Cancelada
+3774,No Cancelada
+3775,Cancelada
+3776,Cancelada
+3777,No Cancelada
+3778,No Cancelada
+3779,Cancelada
+3780,Cancelada
+3781,No Cancelada
+3782,Cancelada
+3783,Cancelada
+3784,No Cancelada
+3785,Cancelada
+3786,No Cancelada
+3787,Cancelada
+3788,Cancelada
+3789,No Cancelada
+3790,No Cancelada
+3791,No Cancelada
+3792,No Cancelada
+3793,No Cancelada
+3794,No Cancelada
+3795,No Cancelada
+3796,No Cancelada
+3797,No Cancelada
+3798,No Cancelada
+3799,No Cancelada
+3800,No Cancelada
+3801,Cancelada
+3802,Cancelada
+3803,No Cancelada
+3804,No Cancelada
+3805,No Cancelada
+3806,No Cancelada
+3807,No Cancelada
+3808,Cancelada
+3809,No Cancelada
+3810,No Cancelada
+3811,Cancelada
+3812,No Cancelada
+3813,No Cancelada
+3814,Cancelada
+3815,No Cancelada
+3816,No Cancelada
+3817,Cancelada
+3818,Cancelada
+3819,Cancelada
+3820,No Cancelada
+3821,Cancelada
+3822,No Cancelada
+3823,No Cancelada
+3824,No Cancelada
+3825,No Cancelada
+3826,No Cancelada
+3827,No Cancelada
+3828,Cancelada
+3829,No Cancelada
+3830,No Cancelada
+3831,Cancelada
+3832,Cancelada
+3833,Cancelada
+3834,No Cancelada
+3835,Cancelada
+3836,No Cancelada
+3837,Cancelada
+3838,No Cancelada
+3839,Cancelada
+3840,Cancelada
+3841,No Cancelada
+3842,No Cancelada
+3843,Cancelada
+3844,No Cancelada
+3845,Cancelada
+3846,Cancelada
+3847,No Cancelada
+3848,Cancelada
+3849,No Cancelada
+3850,No Cancelada
+3851,Cancelada
+3852,No Cancelada
+3853,Cancelada
+3854,Cancelada
+3855,Cancelada
+3856,Cancelada
+3857,No Cancelada
+3858,Cancelada
+3859,No Cancelada
+3860,No Cancelada
+3861,No Cancelada
+3862,Cancelada
+3863,No Cancelada
+3864,Cancelada
+3865,Cancelada
+3866,Cancelada
+3867,No Cancelada
+3868,No Cancelada
+3869,Cancelada
+3870,No Cancelada
+3871,No Cancelada
+3872,Cancelada
+3873,Cancelada
+3874,Cancelada
+3875,No Cancelada
+3876,Cancelada
+3877,No Cancelada
+3878,Cancelada
+3879,Cancelada
+3880,Cancelada
+3881,Cancelada
+3882,No Cancelada
+3883,No Cancelada
+3884,Cancelada
+3885,No Cancelada
+3886,Cancelada
+3887,No Cancelada
+3888,No Cancelada
+3889,Cancelada
+3890,No Cancelada
+3891,Cancelada
+3892,No Cancelada
+3893,Cancelada
+3894,Cancelada
+3895,No Cancelada
+3896,No Cancelada
+3897,Cancelada
+3898,No Cancelada
+3899,No Cancelada
+3900,Cancelada
+3901,No Cancelada
+3902,Cancelada
+3903,Cancelada
+3904,Cancelada
+3905,Cancelada
+3906,No Cancelada
+3907,No Cancelada
+3908,Cancelada
+3909,Cancelada
+3910,Cancelada
+3911,Cancelada
+3912,No Cancelada
+3913,Cancelada
+3914,Cancelada
+3915,No Cancelada
+3916,Cancelada
+3917,Cancelada
+3918,No Cancelada
+3919,No Cancelada
+3920,Cancelada
+3921,No Cancelada
+3922,Cancelada
+3923,Cancelada
+3924,No Cancelada
+3925,No Cancelada
+3926,No Cancelada
+3927,No Cancelada
+3928,Cancelada
+3929,No Cancelada
+3930,Cancelada
+3931,Cancelada
+3932,Cancelada
+3933,No Cancelada
+3934,Cancelada
+3935,Cancelada
+3936,No Cancelada
+3937,No Cancelada
+3938,Cancelada
+3939,Cancelada
+3940,Cancelada
+3941,Cancelada
+3942,Cancelada
+3943,Cancelada
+3944,No Cancelada
+3945,No Cancelada
+3946,No Cancelada
+3947,No Cancelada
+3948,No Cancelada
+3949,No Cancelada
+3950,No Cancelada
+3951,No Cancelada
+3952,Cancelada
+3953,Cancelada
+3954,Cancelada
+3955,Cancelada
+3956,Cancelada
+3957,Cancelada
+3958,No Cancelada
+3959,No Cancelada
+3960,No Cancelada
+3961,No Cancelada
+3962,No Cancelada
+3963,No Cancelada
+3964,Cancelada
+3965,Cancelada
+3966,No Cancelada
+3967,Cancelada
+3968,Cancelada
+3969,Cancelada
+3970,Cancelada
+3971,Cancelada
+3972,Cancelada
+3973,Cancelada
+3974,Cancelada
+3975,Cancelada
+3976,Cancelada
+3977,No Cancelada
+3978,Cancelada
+3979,Cancelada
+3980,No Cancelada
+3981,No Cancelada
+3982,No Cancelada
+3983,Cancelada
+3984,Cancelada
+3985,No Cancelada
+3986,Cancelada
+3987,No Cancelada
+3988,No Cancelada
+3989,No Cancelada
+3990,Cancelada
+3991,No Cancelada
+3992,Cancelada
+3993,Cancelada
+3994,Cancelada
+3995,Cancelada
+3996,No Cancelada
+3997,No Cancelada
+3998,No Cancelada
+3999,Cancelada
+4000,No Cancelada
+4001,No Cancelada
+4002,Cancelada
+4003,No Cancelada
+4004,No Cancelada
+4005,No Cancelada
+4006,Cancelada
+4007,No Cancelada
+4008,No Cancelada
+4009,Cancelada
+4010,No Cancelada
+4011,Cancelada
+4012,No Cancelada
+4013,Cancelada
+4014,Cancelada
+4015,No Cancelada
+4016,No Cancelada
+4017,No Cancelada
+4018,No Cancelada
+4019,No Cancelada
+4020,Cancelada
+4021,No Cancelada
+4022,No Cancelada
+4023,No Cancelada
+4024,Cancelada
+4025,Cancelada
+4026,Cancelada
+4027,Cancelada
+4028,No Cancelada
+4029,Cancelada
+4030,No Cancelada
+4031,No Cancelada
+4032,Cancelada
+4033,No Cancelada
+4034,No Cancelada
+4035,Cancelada
+4036,Cancelada
+4037,Cancelada
+4038,No Cancelada
+4039,No Cancelada
+4040,No Cancelada
+4041,No Cancelada
+4042,Cancelada
+4043,Cancelada
+4044,Cancelada
+4045,Cancelada
+4046,No Cancelada
+4047,Cancelada
+4048,No Cancelada
+4049,No Cancelada
+4050,No Cancelada
+4051,Cancelada
+4052,Cancelada
+4053,No Cancelada
+4054,No Cancelada
+4055,No Cancelada
+4056,Cancelada
+4057,Cancelada
+4058,Cancelada
+4059,Cancelada
+4060,No Cancelada
+4061,No Cancelada
+4062,Cancelada
+4063,No Cancelada
+4064,No Cancelada
+4065,Cancelada
+4066,No Cancelada
+4067,No Cancelada
+4068,Cancelada
+4069,Cancelada
+4070,No Cancelada
+4071,Cancelada
+4072,No Cancelada
+4073,Cancelada
+4074,No Cancelada
+4075,Cancelada
+4076,No Cancelada
+4077,No Cancelada
+4078,Cancelada
+4079,Cancelada
+4080,Cancelada
+4081,No Cancelada
+4082,No Cancelada
+4083,Cancelada
+4084,Cancelada
+4085,Cancelada
+4086,No Cancelada
+4087,No Cancelada
+4088,No Cancelada
+4089,Cancelada
+4090,Cancelada
+4091,No Cancelada
+4092,Cancelada
+4093,Cancelada
+4094,Cancelada
+4095,Cancelada
+4096,Cancelada
+4097,No Cancelada
+4098,Cancelada
+4099,No Cancelada
+4100,No Cancelada
+4101,No Cancelada
+4102,No Cancelada
+4103,No Cancelada
+4104,Cancelada
+4105,No Cancelada
+4106,No Cancelada
+4107,Cancelada
+4108,No Cancelada
+4109,Cancelada
+4110,Cancelada
+4111,Cancelada
+4112,Cancelada
+4113,Cancelada
+4114,Cancelada
+4115,Cancelada
+4116,No Cancelada
+4117,Cancelada
+4118,Cancelada
+4119,No Cancelada
+4120,Cancelada
+4121,No Cancelada
+4122,No Cancelada
+4123,Cancelada
+4124,Cancelada
+4125,No Cancelada
+4126,No Cancelada
+4127,Cancelada
+4128,Cancelada
+4129,No Cancelada
+4130,Cancelada
+4131,No Cancelada
+4132,No Cancelada
+4133,Cancelada
+4134,Cancelada
+4135,No Cancelada
+4136,No Cancelada
+4137,Cancelada
+4138,Cancelada
+4139,No Cancelada
+4140,No Cancelada
+4141,Cancelada
+4142,Cancelada
+4143,Cancelada
+4144,No Cancelada
+4145,Cancelada
+4146,No Cancelada
+4147,No Cancelada
+4148,No Cancelada
+4149,Cancelada
+4150,Cancelada
+4151,Cancelada
+4152,Cancelada
+4153,No Cancelada
+4154,Cancelada
+4155,No Cancelada
+4156,No Cancelada
+4157,No Cancelada
+4158,Cancelada
+4159,No Cancelada
+4160,No Cancelada
+4161,Cancelada
+4162,Cancelada
+4163,Cancelada
+4164,No Cancelada
+4165,Cancelada
+4166,Cancelada
+4167,Cancelada
+4168,No Cancelada
+4169,No Cancelada
+4170,No Cancelada
+4171,No Cancelada
+4172,Cancelada
+4173,Cancelada
+4174,Cancelada
+4175,Cancelada
+4176,Cancelada
+4177,No Cancelada
+4178,No Cancelada
+4179,Cancelada
+4180,No Cancelada
+4181,Cancelada
+4182,Cancelada
+4183,Cancelada
+4184,No Cancelada
+4185,No Cancelada
+4186,Cancelada
+4187,Cancelada
+4188,No Cancelada
+4189,No Cancelada
+4190,No Cancelada
+4191,Cancelada
+4192,Cancelada
+4193,No Cancelada
+4194,Cancelada
+4195,No Cancelada
+4196,Cancelada
+4197,Cancelada
+4198,Cancelada
+4199,No Cancelada
+4200,Cancelada
+4201,No Cancelada
+4202,Cancelada
+4203,Cancelada
+4204,Cancelada
+4205,Cancelada
+4206,No Cancelada
+4207,Cancelada
+4208,Cancelada
+4209,Cancelada
+4210,No Cancelada
+4211,Cancelada
+4212,Cancelada
+4213,Cancelada
+4214,No Cancelada
+4215,Cancelada
+4216,Cancelada
+4217,Cancelada
+4218,Cancelada
+4219,No Cancelada
+4220,Cancelada
+4221,No Cancelada
+4222,No Cancelada
+4223,No Cancelada
+4224,Cancelada
+4225,No Cancelada
+4226,No Cancelada
+4227,Cancelada
+4228,Cancelada
+4229,Cancelada
+4230,Cancelada
+4231,No Cancelada
+4232,Cancelada
+4233,No Cancelada
+4234,Cancelada
+4235,Cancelada
+4236,Cancelada
+4237,No Cancelada
+4238,No Cancelada
+4239,No Cancelada
+4240,Cancelada
+4241,No Cancelada
+4242,Cancelada
+4243,Cancelada
+4244,Cancelada
+4245,Cancelada
+4246,No Cancelada
+4247,Cancelada
+4248,No Cancelada
+4249,Cancelada
+4250,Cancelada
+4251,No Cancelada
+4252,No Cancelada
+4253,No Cancelada
+4254,No Cancelada
+4255,Cancelada
+4256,Cancelada
+4257,No Cancelada
+4258,No Cancelada
+4259,Cancelada
+4260,Cancelada
+4261,No Cancelada
+4262,No Cancelada
+4263,Cancelada
+4264,Cancelada
+4265,Cancelada
+4266,No Cancelada
+4267,No Cancelada
+4268,No Cancelada
+4269,Cancelada
+4270,Cancelada
+4271,No Cancelada
+4272,Cancelada
+4273,Cancelada
+4274,Cancelada
+4275,No Cancelada
+4276,Cancelada
+4277,No Cancelada
+4278,Cancelada
+4279,No Cancelada
+4280,Cancelada
+4281,Cancelada
+4282,No Cancelada
+4283,No Cancelada
+4284,Cancelada
+4285,Cancelada
+4286,No Cancelada
+4287,Cancelada
+4288,Cancelada
+4289,No Cancelada
+4290,Cancelada
+4291,Cancelada
+4292,No Cancelada
+4293,No Cancelada
+4294,Cancelada
+4295,No Cancelada
+4296,Cancelada
+4297,No Cancelada
+4298,No Cancelada
+4299,No Cancelada
+4300,No Cancelada
+4301,No Cancelada
+4302,No Cancelada
+4303,Cancelada
+4304,Cancelada
+4305,No Cancelada
+4306,No Cancelada
+4307,Cancelada
+4308,Cancelada
+4309,No Cancelada
+4310,No Cancelada
+4311,No Cancelada
+4312,No Cancelada
+4313,Cancelada
+4314,No Cancelada
+4315,No Cancelada
+4316,No Cancelada
+4317,Cancelada
+4318,No Cancelada
+4319,Cancelada
+4320,Cancelada
+4321,Cancelada
+4322,No Cancelada
+4323,No Cancelada
+4324,No Cancelada
+4325,No Cancelada
+4326,No Cancelada
+4327,Cancelada
+4328,Cancelada
+4329,No Cancelada
+4330,No Cancelada
+4331,No Cancelada
+4332,No Cancelada
+4333,Cancelada
+4334,No Cancelada
+4335,No Cancelada
+4336,No Cancelada
+4337,No Cancelada
+4338,No Cancelada
+4339,Cancelada
+4340,Cancelada
+4341,No Cancelada
+4342,No Cancelada
+4343,No Cancelada
+4344,No Cancelada
+4345,No Cancelada
+4346,No Cancelada
+4347,No Cancelada
+4348,No Cancelada
+4349,No Cancelada
+4350,No Cancelada
+4351,No Cancelada
+4352,No Cancelada
