@@ -53,7 +53,7 @@ Id,Estado_Reserva
 51,No Cancelada
 52,No Cancelada
 53,No Cancelada
-54,No Cancelada
+54,Cancelada
 55,No Cancelada
 56,Cancelada
 57,No Cancelada
@@ -67,7 +67,7 @@ Id,Estado_Reserva
 65,No Cancelada
 66,No Cancelada
 67,No Cancelada
-68,No Cancelada
+68,Cancelada
 69,Cancelada
 70,No Cancelada
 71,No Cancelada
@@ -87,7 +87,7 @@ Id,Estado_Reserva
 85,No Cancelada
 86,No Cancelada
 87,Cancelada
-88,Cancelada
+88,No Cancelada
 89,No Cancelada
 90,Cancelada
 91,Cancelada
@@ -138,7 +138,7 @@ Id,Estado_Reserva
 136,No Cancelada
 137,Cancelada
 138,Cancelada
-139,No Cancelada
+139,Cancelada
 140,No Cancelada
 141,No Cancelada
 142,No Cancelada
@@ -152,7 +152,7 @@ Id,Estado_Reserva
 150,No Cancelada
 151,Cancelada
 152,Cancelada
-153,No Cancelada
+153,Cancelada
 154,No Cancelada
 155,No Cancelada
 156,No Cancelada
@@ -175,12 +175,12 @@ Id,Estado_Reserva
 173,Cancelada
 174,No Cancelada
 175,Cancelada
-176,No Cancelada
+176,Cancelada
 177,Cancelada
 178,No Cancelada
 179,Cancelada
 180,No Cancelada
-181,Cancelada
+181,No Cancelada
 182,No Cancelada
 183,No Cancelada
 184,No Cancelada
@@ -242,7 +242,7 @@ Id,Estado_Reserva
 240,Cancelada
 241,No Cancelada
 242,Cancelada
-243,Cancelada
+243,No Cancelada
 244,No Cancelada
 245,No Cancelada
 246,No Cancelada
@@ -265,7 +265,7 @@ Id,Estado_Reserva
 263,No Cancelada
 264,No Cancelada
 265,No Cancelada
-266,Cancelada
+266,No Cancelada
 267,No Cancelada
 268,No Cancelada
 269,No Cancelada
@@ -288,7 +288,7 @@ Id,Estado_Reserva
 286,No Cancelada
 287,No Cancelada
 288,Cancelada
-289,No Cancelada
+289,Cancelada
 290,Cancelada
 291,Cancelada
 292,No Cancelada
@@ -305,7 +305,7 @@ Id,Estado_Reserva
 303,No Cancelada
 304,No Cancelada
 305,No Cancelada
-306,Cancelada
+306,No Cancelada
 307,No Cancelada
 308,No Cancelada
 309,Cancelada
@@ -370,14 +370,14 @@ Id,Estado_Reserva
 368,Cancelada
 369,No Cancelada
 370,No Cancelada
-371,Cancelada
+371,No Cancelada
 372,Cancelada
-373,Cancelada
+373,No Cancelada
 374,Cancelada
 375,No Cancelada
 376,No Cancelada
 377,No Cancelada
-378,Cancelada
+378,No Cancelada
 379,No Cancelada
 380,No Cancelada
 381,No Cancelada
@@ -493,7 +493,7 @@ Id,Estado_Reserva
 491,Cancelada
 492,Cancelada
 493,Cancelada
-494,No Cancelada
+494,Cancelada
 495,No Cancelada
 496,Cancelada
 497,No Cancelada
@@ -571,7 +571,7 @@ Id,Estado_Reserva
 569,No Cancelada
 570,No Cancelada
 571,No Cancelada
-572,No Cancelada
+572,Cancelada
 573,No Cancelada
 574,No Cancelada
 575,No Cancelada
@@ -694,14 +694,14 @@ Id,Estado_Reserva
 692,Cancelada
 693,No Cancelada
 694,No Cancelada
-695,Cancelada
+695,No Cancelada
 696,Cancelada
 697,No Cancelada
 698,Cancelada
 699,No Cancelada
 700,No Cancelada
 701,No Cancelada
-702,Cancelada
+702,No Cancelada
 703,Cancelada
 704,No Cancelada
 705,No Cancelada
@@ -725,7 +725,7 @@ Id,Estado_Reserva
 723,No Cancelada
 724,No Cancelada
 725,Cancelada
-726,No Cancelada
+726,Cancelada
 727,No Cancelada
 728,Cancelada
 729,No Cancelada
@@ -734,7 +734,7 @@ Id,Estado_Reserva
 732,No Cancelada
 733,No Cancelada
 734,No Cancelada
-735,Cancelada
+735,No Cancelada
 736,Cancelada
 737,No Cancelada
 738,No Cancelada
@@ -828,7 +828,7 @@ Id,Estado_Reserva
 826,No Cancelada
 827,No Cancelada
 828,Cancelada
-829,No Cancelada
+829,Cancelada
 830,No Cancelada
 831,Cancelada
 832,No Cancelada
@@ -892,7 +892,7 @@ Id,Estado_Reserva
 890,No Cancelada
 891,No Cancelada
 892,Cancelada
-893,No Cancelada
+893,Cancelada
 894,Cancelada
 895,No Cancelada
 896,No Cancelada
@@ -952,7 +952,7 @@ Id,Estado_Reserva
 950,No Cancelada
 951,No Cancelada
 952,No Cancelada
-953,Cancelada
+953,No Cancelada
 954,No Cancelada
 955,Cancelada
 956,Cancelada
@@ -986,7 +986,7 @@ Id,Estado_Reserva
 984,Cancelada
 985,No Cancelada
 986,No Cancelada
-987,No Cancelada
+987,Cancelada
 988,No Cancelada
 989,No Cancelada
 990,Cancelada
@@ -1027,7 +1027,7 @@ Id,Estado_Reserva
 1025,No Cancelada
 1026,No Cancelada
 1027,No Cancelada
-1028,Cancelada
+1028,No Cancelada
 1029,Cancelada
 1030,No Cancelada
 1031,No Cancelada
@@ -1054,7 +1054,7 @@ Id,Estado_Reserva
 1052,Cancelada
 1053,No Cancelada
 1054,No Cancelada
-1055,No Cancelada
+1055,Cancelada
 1056,No Cancelada
 1057,No Cancelada
 1058,No Cancelada
@@ -1145,10 +1145,10 @@ Id,Estado_Reserva
 1143,No Cancelada
 1144,No Cancelada
 1145,No Cancelada
-1146,No Cancelada
+1146,Cancelada
 1147,Cancelada
 1148,No Cancelada
-1149,No Cancelada
+1149,Cancelada
 1150,No Cancelada
 1151,No Cancelada
 1152,No Cancelada
@@ -1175,7 +1175,7 @@ Id,Estado_Reserva
 1173,No Cancelada
 1174,Cancelada
 1175,Cancelada
-1176,No Cancelada
+1176,Cancelada
 1177,No Cancelada
 1178,Cancelada
 1179,No Cancelada
@@ -1237,7 +1237,7 @@ Id,Estado_Reserva
 1235,No Cancelada
 1236,Cancelada
 1237,No Cancelada
-1238,Cancelada
+1238,No Cancelada
 1239,No Cancelada
 1240,Cancelada
 1241,No Cancelada
@@ -1251,7 +1251,7 @@ Id,Estado_Reserva
 1249,No Cancelada
 1250,No Cancelada
 1251,No Cancelada
-1252,No Cancelada
+1252,Cancelada
 1253,No Cancelada
 1254,No Cancelada
 1255,No Cancelada
@@ -1395,7 +1395,7 @@ Id,Estado_Reserva
 1393,No Cancelada
 1394,Cancelada
 1395,No Cancelada
-1396,No Cancelada
+1396,Cancelada
 1397,No Cancelada
 1398,Cancelada
 1399,No Cancelada
@@ -1428,7 +1428,7 @@ Id,Estado_Reserva
 1426,Cancelada
 1427,Cancelada
 1428,No Cancelada
-1429,No Cancelada
+1429,Cancelada
 1430,Cancelada
 1431,No Cancelada
 1432,Cancelada
@@ -1453,7 +1453,7 @@ Id,Estado_Reserva
 1451,No Cancelada
 1452,No Cancelada
 1453,Cancelada
-1454,Cancelada
+1454,No Cancelada
 1455,Cancelada
 1456,No Cancelada
 1457,No Cancelada
@@ -1506,7 +1506,7 @@ Id,Estado_Reserva
 1504,No Cancelada
 1505,Cancelada
 1506,No Cancelada
-1507,Cancelada
+1507,No Cancelada
 1508,No Cancelada
 1509,No Cancelada
 1510,Cancelada
@@ -1552,7 +1552,7 @@ Id,Estado_Reserva
 1550,No Cancelada
 1551,No Cancelada
 1552,Cancelada
-1553,No Cancelada
+1553,Cancelada
 1554,No Cancelada
 1555,Cancelada
 1556,No Cancelada
@@ -1637,9 +1637,9 @@ Id,Estado_Reserva
 1635,No Cancelada
 1636,No Cancelada
 1637,Cancelada
-1638,Cancelada
+1638,No Cancelada
 1639,No Cancelada
-1640,Cancelada
+1640,No Cancelada
 1641,Cancelada
 1642,No Cancelada
 1643,No Cancelada
@@ -1661,7 +1661,7 @@ Id,Estado_Reserva
 1659,No Cancelada
 1660,No Cancelada
 1661,No Cancelada
-1662,Cancelada
+1662,No Cancelada
 1663,No Cancelada
 1664,No Cancelada
 1665,No Cancelada
@@ -1745,7 +1745,7 @@ Id,Estado_Reserva
 1743,No Cancelada
 1744,Cancelada
 1745,No Cancelada
-1746,No Cancelada
+1746,Cancelada
 1747,Cancelada
 1748,No Cancelada
 1749,Cancelada
@@ -1791,7 +1791,7 @@ Id,Estado_Reserva
 1789,Cancelada
 1790,No Cancelada
 1791,Cancelada
-1792,Cancelada
+1792,No Cancelada
 1793,Cancelada
 1794,Cancelada
 1795,No Cancelada
@@ -1815,7 +1815,7 @@ Id,Estado_Reserva
 1813,No Cancelada
 1814,No Cancelada
 1815,No Cancelada
-1816,Cancelada
+1816,No Cancelada
 1817,Cancelada
 1818,Cancelada
 1819,No Cancelada
@@ -1868,7 +1868,7 @@ Id,Estado_Reserva
 1866,No Cancelada
 1867,No Cancelada
 1868,No Cancelada
-1869,Cancelada
+1869,No Cancelada
 1870,No Cancelada
 1871,No Cancelada
 1872,No Cancelada
@@ -1961,7 +1961,7 @@ Id,Estado_Reserva
 1959,No Cancelada
 1960,No Cancelada
 1961,No Cancelada
-1962,Cancelada
+1962,No Cancelada
 1963,Cancelada
 1964,No Cancelada
 1965,No Cancelada
@@ -2019,7 +2019,7 @@ Id,Estado_Reserva
 2017,No Cancelada
 2018,No Cancelada
 2019,No Cancelada
-2020,No Cancelada
+2020,Cancelada
 2021,No Cancelada
 2022,Cancelada
 2023,No Cancelada
@@ -2055,11 +2055,11 @@ Id,Estado_Reserva
 2053,No Cancelada
 2054,No Cancelada
 2055,No Cancelada
-2056,No Cancelada
+2056,Cancelada
 2057,No Cancelada
 2058,No Cancelada
 2059,No Cancelada
-2060,No Cancelada
+2060,Cancelada
 2061,No Cancelada
 2062,No Cancelada
 2063,No Cancelada
@@ -2141,7 +2141,7 @@ Id,Estado_Reserva
 2139,Cancelada
 2140,Cancelada
 2141,No Cancelada
-2142,Cancelada
+2142,No Cancelada
 2143,No Cancelada
 2144,No Cancelada
 2145,Cancelada
@@ -2149,11 +2149,11 @@ Id,Estado_Reserva
 2147,Cancelada
 2148,Cancelada
 2149,Cancelada
-2150,No Cancelada
+2150,Cancelada
 2151,No Cancelada
 2152,No Cancelada
 2153,Cancelada
-2154,No Cancelada
+2154,Cancelada
 2155,Cancelada
 2156,No Cancelada
 2157,No Cancelada
@@ -2269,7 +2269,7 @@ Id,Estado_Reserva
 2267,No Cancelada
 2268,Cancelada
 2269,Cancelada
-2270,Cancelada
+2270,No Cancelada
 2271,No Cancelada
 2272,Cancelada
 2273,Cancelada
@@ -2284,7 +2284,7 @@ Id,Estado_Reserva
 2282,No Cancelada
 2283,Cancelada
 2284,No Cancelada
-2285,Cancelada
+2285,No Cancelada
 2286,Cancelada
 2287,No Cancelada
 2288,Cancelada
@@ -2292,11 +2292,11 @@ Id,Estado_Reserva
 2290,No Cancelada
 2291,Cancelada
 2292,No Cancelada
-2293,Cancelada
+2293,No Cancelada
 2294,No Cancelada
 2295,No Cancelada
 2296,No Cancelada
-2297,No Cancelada
+2297,Cancelada
 2298,No Cancelada
 2299,No Cancelada
 2300,No Cancelada
@@ -2316,7 +2316,7 @@ Id,Estado_Reserva
 2314,No Cancelada
 2315,No Cancelada
 2316,No Cancelada
-2317,No Cancelada
+2317,Cancelada
 2318,No Cancelada
 2319,No Cancelada
 2320,No Cancelada
@@ -2344,7 +2344,7 @@ Id,Estado_Reserva
 2342,No Cancelada
 2343,No Cancelada
 2344,No Cancelada
-2345,No Cancelada
+2345,Cancelada
 2346,No Cancelada
 2347,No Cancelada
 2348,Cancelada
@@ -2405,7 +2405,7 @@ Id,Estado_Reserva
 2403,No Cancelada
 2404,Cancelada
 2405,Cancelada
-2406,No Cancelada
+2406,Cancelada
 2407,No Cancelada
 2408,No Cancelada
 2409,No Cancelada
@@ -2443,7 +2443,7 @@ Id,Estado_Reserva
 2441,No Cancelada
 2442,No Cancelada
 2443,No Cancelada
-2444,Cancelada
+2444,No Cancelada
 2445,Cancelada
 2446,Cancelada
 2447,No Cancelada
@@ -2471,12 +2471,12 @@ Id,Estado_Reserva
 2469,Cancelada
 2470,Cancelada
 2471,Cancelada
-2472,Cancelada
+2472,No Cancelada
 2473,No Cancelada
-2474,Cancelada
+2474,No Cancelada
 2475,Cancelada
 2476,No Cancelada
-2477,No Cancelada
+2477,Cancelada
 2478,No Cancelada
 2479,No Cancelada
 2480,No Cancelada
@@ -2488,7 +2488,7 @@ Id,Estado_Reserva
 2486,Cancelada
 2487,No Cancelada
 2488,No Cancelada
-2489,No Cancelada
+2489,Cancelada
 2490,No Cancelada
 2491,Cancelada
 2492,Cancelada
@@ -2512,7 +2512,7 @@ Id,Estado_Reserva
 2510,Cancelada
 2511,Cancelada
 2512,No Cancelada
-2513,No Cancelada
+2513,Cancelada
 2514,No Cancelada
 2515,No Cancelada
 2516,No Cancelada
@@ -2543,7 +2543,7 @@ Id,Estado_Reserva
 2541,Cancelada
 2542,No Cancelada
 2543,No Cancelada
-2544,No Cancelada
+2544,Cancelada
 2545,Cancelada
 2546,Cancelada
 2547,No Cancelada
@@ -2629,7 +2629,7 @@ Id,Estado_Reserva
 2627,Cancelada
 2628,Cancelada
 2629,No Cancelada
-2630,Cancelada
+2630,No Cancelada
 2631,No Cancelada
 2632,No Cancelada
 2633,No Cancelada
@@ -2734,7 +2734,7 @@ Id,Estado_Reserva
 2732,No Cancelada
 2733,No Cancelada
 2734,Cancelada
-2735,Cancelada
+2735,No Cancelada
 2736,No Cancelada
 2737,No Cancelada
 2738,Cancelada
@@ -2758,7 +2758,7 @@ Id,Estado_Reserva
 2756,Cancelada
 2757,No Cancelada
 2758,Cancelada
-2759,No Cancelada
+2759,Cancelada
 2760,No Cancelada
 2761,No Cancelada
 2762,No Cancelada
@@ -2781,7 +2781,7 @@ Id,Estado_Reserva
 2779,Cancelada
 2780,No Cancelada
 2781,No Cancelada
-2782,No Cancelada
+2782,Cancelada
 2783,Cancelada
 2784,Cancelada
 2785,No Cancelada
@@ -2840,7 +2840,7 @@ Id,Estado_Reserva
 2838,No Cancelada
 2839,No Cancelada
 2840,Cancelada
-2841,Cancelada
+2841,No Cancelada
 2842,Cancelada
 2843,No Cancelada
 2844,No Cancelada
@@ -2859,7 +2859,7 @@ Id,Estado_Reserva
 2857,No Cancelada
 2858,No Cancelada
 2859,Cancelada
-2860,Cancelada
+2860,No Cancelada
 2861,Cancelada
 2862,No Cancelada
 2863,No Cancelada
@@ -2914,12 +2914,12 @@ Id,Estado_Reserva
 2912,Cancelada
 2913,Cancelada
 2914,Cancelada
-2915,Cancelada
+2915,No Cancelada
 2916,No Cancelada
-2917,Cancelada
+2917,No Cancelada
 2918,No Cancelada
 2919,No Cancelada
-2920,Cancelada
+2920,No Cancelada
 2921,No Cancelada
 2922,No Cancelada
 2923,Cancelada
@@ -3006,7 +3006,7 @@ Id,Estado_Reserva
 3004,No Cancelada
 3005,No Cancelada
 3006,Cancelada
-3007,Cancelada
+3007,No Cancelada
 3008,No Cancelada
 3009,No Cancelada
 3010,Cancelada
@@ -3105,7 +3105,7 @@ Id,Estado_Reserva
 3103,No Cancelada
 3104,No Cancelada
 3105,No Cancelada
-3106,No Cancelada
+3106,Cancelada
 3107,No Cancelada
 3108,Cancelada
 3109,No Cancelada
@@ -3126,7 +3126,7 @@ Id,Estado_Reserva
 3124,Cancelada
 3125,No Cancelada
 3126,No Cancelada
-3127,No Cancelada
+3127,Cancelada
 3128,No Cancelada
 3129,No Cancelada
 3130,No Cancelada
@@ -3239,7 +3239,7 @@ Id,Estado_Reserva
 3237,No Cancelada
 3238,No Cancelada
 3239,No Cancelada
-3240,No Cancelada
+3240,Cancelada
 3241,No Cancelada
 3242,No Cancelada
 3243,No Cancelada
@@ -3256,7 +3256,7 @@ Id,Estado_Reserva
 3254,Cancelada
 3255,No Cancelada
 3256,No Cancelada
-3257,Cancelada
+3257,No Cancelada
 3258,No Cancelada
 3259,No Cancelada
 3260,No Cancelada
@@ -3266,7 +3266,7 @@ Id,Estado_Reserva
 3264,Cancelada
 3265,Cancelada
 3266,No Cancelada
-3267,No Cancelada
+3267,Cancelada
 3268,Cancelada
 3269,No Cancelada
 3270,No Cancelada
@@ -3356,8 +3356,8 @@ Id,Estado_Reserva
 3354,No Cancelada
 3355,Cancelada
 3356,Cancelada
-3357,Cancelada
-3358,No Cancelada
+3357,No Cancelada
+3358,Cancelada
 3359,No Cancelada
 3360,No Cancelada
 3361,Cancelada
@@ -3370,7 +3370,7 @@ Id,Estado_Reserva
 3368,No Cancelada
 3369,No Cancelada
 3370,No Cancelada
-3371,No Cancelada
+3371,Cancelada
 3372,No Cancelada
 3373,Cancelada
 3374,Cancelada
@@ -3382,8 +3382,8 @@ Id,Estado_Reserva
 3380,Cancelada
 3381,Cancelada
 3382,No Cancelada
-3383,No Cancelada
-3384,Cancelada
+3383,Cancelada
+3384,No Cancelada
 3385,Cancelada
 3386,No Cancelada
 3387,Cancelada
@@ -3397,7 +3397,7 @@ Id,Estado_Reserva
 3395,No Cancelada
 3396,Cancelada
 3397,No Cancelada
-3398,Cancelada
+3398,No Cancelada
 3399,No Cancelada
 3400,No Cancelada
 3401,Cancelada
@@ -3603,7 +3603,7 @@ Id,Estado_Reserva
 3601,Cancelada
 3602,No Cancelada
 3603,No Cancelada
-3604,No Cancelada
+3604,Cancelada
 3605,No Cancelada
 3606,Cancelada
 3607,No Cancelada
@@ -3647,9 +3647,9 @@ Id,Estado_Reserva
 3645,Cancelada
 3646,No Cancelada
 3647,No Cancelada
-3648,No Cancelada
+3648,Cancelada
 3649,Cancelada
-3650,Cancelada
+3650,No Cancelada
 3651,Cancelada
 3652,No Cancelada
 3653,No Cancelada
@@ -3678,7 +3678,7 @@ Id,Estado_Reserva
 3676,Cancelada
 3677,No Cancelada
 3678,Cancelada
-3679,No Cancelada
+3679,Cancelada
 3680,No Cancelada
 3681,No Cancelada
 3682,Cancelada
@@ -3750,7 +3750,7 @@ Id,Estado_Reserva
 3748,No Cancelada
 3749,No Cancelada
 3750,No Cancelada
-3751,No Cancelada
+3751,Cancelada
 3752,No Cancelada
 3753,No Cancelada
 3754,No Cancelada
@@ -3781,19 +3781,19 @@ Id,Estado_Reserva
 3779,Cancelada
 3780,No Cancelada
 3781,Cancelada
-3782,Cancelada
+3782,No Cancelada
 3783,No Cancelada
 3784,No Cancelada
 3785,No Cancelada
 3786,No Cancelada
 3787,No Cancelada
 3788,Cancelada
-3789,Cancelada
+3789,No Cancelada
 3790,No Cancelada
-3791,Cancelada
+3791,No Cancelada
 3792,No Cancelada
 3793,No Cancelada
-3794,No Cancelada
+3794,Cancelada
 3795,No Cancelada
 3796,No Cancelada
 3797,No Cancelada
@@ -3837,11 +3837,11 @@ Id,Estado_Reserva
 3835,No Cancelada
 3836,No Cancelada
 3837,Cancelada
-3838,No Cancelada
+3838,Cancelada
 3839,No Cancelada
 3840,No Cancelada
 3841,No Cancelada
-3842,Cancelada
+3842,No Cancelada
 3843,No Cancelada
 3844,No Cancelada
 3845,No Cancelada
@@ -3885,7 +3885,7 @@ Id,Estado_Reserva
 3883,No Cancelada
 3884,No Cancelada
 3885,No Cancelada
-3886,Cancelada
+3886,No Cancelada
 3887,No Cancelada
 3888,Cancelada
 3889,No Cancelada
@@ -3918,7 +3918,7 @@ Id,Estado_Reserva
 3916,No Cancelada
 3917,Cancelada
 3918,No Cancelada
-3919,Cancelada
+3919,No Cancelada
 3920,No Cancelada
 3921,No Cancelada
 3922,No Cancelada
@@ -4018,7 +4018,7 @@ Id,Estado_Reserva
 4016,No Cancelada
 4017,Cancelada
 4018,No Cancelada
-4019,Cancelada
+4019,No Cancelada
 4020,No Cancelada
 4021,Cancelada
 4022,Cancelada
@@ -4114,7 +4114,7 @@ Id,Estado_Reserva
 4112,Cancelada
 4113,No Cancelada
 4114,Cancelada
-4115,Cancelada
+4115,No Cancelada
 4116,Cancelada
 4117,No Cancelada
 4118,No Cancelada
@@ -4166,7 +4166,7 @@ Id,Estado_Reserva
 4164,No Cancelada
 4165,Cancelada
 4166,No Cancelada
-4167,No Cancelada
+4167,Cancelada
 4168,Cancelada
 4169,No Cancelada
 4170,No Cancelada
@@ -4198,7 +4198,7 @@ Id,Estado_Reserva
 4196,No Cancelada
 4197,Cancelada
 4198,Cancelada
-4199,Cancelada
+4199,No Cancelada
 4200,Cancelada
 4201,Cancelada
 4202,No Cancelada
@@ -4209,12 +4209,12 @@ Id,Estado_Reserva
 4207,No Cancelada
 4208,Cancelada
 4209,No Cancelada
-4210,Cancelada
+4210,No Cancelada
 4211,No Cancelada
 4212,Cancelada
 4213,No Cancelada
 4214,Cancelada
-4215,No Cancelada
+4215,Cancelada
 4216,No Cancelada
 4217,Cancelada
 4218,No Cancelada
@@ -4350,5 +4350,5 @@ Id,Estado_Reserva
 4348,No Cancelada
 4349,No Cancelada
 4350,Cancelada
-4351,No Cancelada
+4351,Cancelada
 4352,No Cancelada

@@ -1,9 +1,14 @@
-# configs/best_config_optuna.yaml
+# configs/best_config_optuna_100.yaml # Actualizado con los nuevos mejores parámetros
 
 # Rutas (copiar de base_config.yaml)
-data_raw_path:       "data/raw/"
-train_file:          "train.csv"
-# ...otras rutas...
+data_raw_path: "data/raw/"
+train_file: "train.csv"
+# ...otras rutas... (asumiendo que las tienes en tu base_config.yaml)
+data_processed_path: "data/processed/"
+models_path: "models/"
+metrics_path: "metrics/"
+submission_path: "submissions/"
+test_file: "test_x.csv" # Asumiendo que también lo tienes
 
 # Columnas a procesar (copiar de base_config.yaml)
 numerical_columns:
@@ -20,15 +25,15 @@ categorical_columns:
   - Tipo_Habitación_Reservada
   - Segmento_Mercado
 
-# Limpieza y tratamiento de outliers (ACTUALIZADO según Optuna Trial 71)
+# Limpieza y tratamiento de outliers (ACTUALIZADO según Optuna)
 preprocessing:
   create_missing_flags: true
   outlier_treatment_numerical: 'none'   # <<< ACTUALIZADO: Optuna eligió 'none'
   # Las siguientes claves de winsor/log ya no son necesarias si es 'none', pero no dañan si se quedan
-  # winsor_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
-  # log_transform_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
-  # winsor_quantiles_lower: 0.01 # Valor no relevante si outlier_treatment es 'none'
-  # winsor_quantiles_upper: 0.99 # Valor no relevante si outlier_treatment es 'none'
+  # winsor_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación'] # Comentado ya que no aplica
+  # log_transform_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación'] # Comentado ya que no aplica
+  # winsor_quantiles_lower: 0.01 # Comentado ya que no aplica
+  # winsor_quantiles_upper: 0.99 # Comentado ya que no aplica
   categorical_imputation_fill_value: 'Missing'
   rare_grouping_threshold: 0.01 # Optuna no optimizó esto, mantener el valor base o el que usaste
 
@@ -41,10 +46,10 @@ target_positive_class: "Cancelada"   # Mantener para mapeo
 target_negative_class: "No Cancelada" # Mantener para mapeo
 random_seed: 42 # Mantener o usar el del config base
 
-# Encoding (ACTUALIZADO según Optuna Trial 71)
+# Encoding (ACTUALIZADO según Optuna)
 encoding:
-  method: 'onehot'        # <<< ACTUALIZADO: Optuna eligió 'onehot'
-  # target_smoothing: 10.0 # Valor no relevante si method es 'onehot'
+  method: 'target'        # <<< ACTUALIZADO: Optuna eligió 'target'
+  target_smoothing: 11.271975930618606 # <<< ACTUALIZADO según Optuna
 
 # Feature Engineering Params (copiar de base_config.yaml, Optuna no optimizó estos aquí)
 feature_engineering_params:
@@ -65,13 +70,15 @@ feature_engineering_params:
     11: 'Otoño'
     12: 'Invierno'
 
-  cols_to_drop_after_fe:
+  cols_to_drop_after_fe: # Estas son las columnas ORIGINALES que se dropean después de crear nuevas features a partir de ellas
     - "Num_Adultos"
     - "Num_Niños"
     - "Noches_Semana"
     - "Noches_Fin_Semana"
+    # Considera si alguna feature creada en el FE debería dropearse aquí
+    # o si el dropeo se gestiona por no estar en numerical/categorical_columns al final.
 
-# Modelo (ACTUALIZADO según Optuna Trial 71)
+# Modelo (ACTUALIZADO según Optuna)
 model:
   name: 'lightgbm'
   params:
@@ -83,19 +90,23 @@ model:
     verbosity: -1            # Para menos output
     # early_stopping_rounds: 50 # Solo si se usa con eval_set en fit
 
-    # Parámetros Optimizados por Optuna (Trial 71)
-    boosting_type: 'goss'
-    n_estimators: 1000
-    learning_rate: 0.020030811814622747
-    num_leaves: 56
-    max_depth: 12
-    reg_alpha: 0.018371392086872718
-    reg_lambda: 0.011075316696782656
-    colsample_bytree: 0.8129778848398659
-    min_child_samples: 8
-    min_split_gain: 0.25681617663508066
-    max_bin: 160
-    # subsample y subsample_freq no se aplican a 'goss'
+    # Parámetros Optimizados por Optuna
+    boosting_type: 'gbdt'                           # <<< ACTUALIZADO
+    n_estimators: 800                               # <<< ACTUALIZADO
+    learning_rate: 0.02103308100345942              # <<< ACTUALIZADO
+    num_leaves: 123                                 # <<< ACTUALIZADO
+    max_depth: 9                                    # <<< ACTUALIZADO
+    reg_alpha: 6.509388181112787e-07                # <<< ACTUALIZADO
+    reg_lambda: 6.792896299027691e-05               # <<< ACTUALIZADO
+    colsample_bytree: 0.4259062560252868            # <<< ACTUALIZADO
+    min_child_samples: 7                            # <<< ACTUALIZADO
+    min_split_gain: 0.15899938133988173             # <<< ACTUALIZADO
+    max_bin: 352                                    # <<< ACTUALIZADO
+    subsample: 0.637856332294457                    # <<< ACTUALIZADO (aplica para gbdt)
+    subsample_freq: 5                               # <<< ACTUALIZADO (aplica para gbdt si subsample < 1.0)
+
+prediction:
+  threshold: 0.47   # Umbral optimizado sobre OOF para maximizar F1-weighted
 
 # CV config (Opcional, si quieres definirlo aquí para run_experiment)
 # cv_n_splits: 5
