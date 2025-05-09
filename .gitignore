@@ -13,8 +13,8 @@ __pycache__/
 
 # Archivos de datos grandes (si no los quieres en el repo)
 # data/raw/*.csv  # Comenta esto si quieres que tus datos estén en Git (para datasets pequeños)
-data/processed/
-data/output/
+#data/processed/
+#data/output/
 
 # Archivos de sistema operativo
 .DS_Store

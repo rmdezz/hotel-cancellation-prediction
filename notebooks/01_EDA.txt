@@ -1,0 +1,470 @@
+--- CELDA MARKDOWN 1 ---
+# Análisis Exploratorio de Datos (EDA)
+
+Este notebook realiza un EDA riguroso para comprender distribuciones, nulos, correlaciones y patrones temporales en el problema de predicción de cancelación de reservas.
+
+--- CELDA MARKDOWN 2 ---
+## 1. Configuración del Entorno e Importaciones
+
+**Propósito:** Cargar todas las librerías necesarias para el análisis y establecer configuraciones globales para una visualización consistente.
+
+--- CELDA CÓDIGO 3 ---
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import missingno as msno
+from scipy import stats # Para análisis estadísticos si son necesarios
+from statsmodels.stats.outliers_influence import variance_inflation_factor # Para VIF
+
+# Configuraciones de visualización
+%matplotlib inline
+sns.set_style('whitegrid')
+pd.set_option('display.max_columns', None)
+pd.set_option('display.float_format', lambda x: '%.3f' % x)
+plt.rcParams['figure.figsize'] = (12, 6)
+
+print("Librerías y configuraciones listas.")
+--- SALIDA STDOUT (Celda 3) ---
+Librerías y configuraciones listas.
+
+
+
+--- CELDA MARKDOWN 4 ---
+## 2. Carga y Vistazo Inicial de los Datos
+
+**Propósito:** Cargar los conjuntos de datos de entrenamiento, prueba y la muestra de submission. Realizar una inspección inicial para entender las dimensiones, tipos de datos y ver algunas filas de ejemplo.
+
+--- CELDA CÓDIGO 5 ---
+# Definición de Paths y Constantes (ajustar según estructura)
+DATA_RAW_PATH = "../data/raw/" 
+TRAIN_FILE = "train.csv"
+TEST_FILE = "test_x.csv"
+SAMPLE_SUBMISSION_FILE = "sample_submission.csv"
+TARGET_COL = "Estado_Reserva"
+
+# Carga
+try:
+    df_train = pd.read_csv(f"{DATA_RAW_PATH}{TRAIN_FILE}")
+    df_test = pd.read_csv(f"{DATA_RAW_PATH}{TEST_FILE}")
+    df_sample_submission = pd.read_csv(f"{DATA_RAW_PATH}{SAMPLE_SUBMISSION_FILE}")
+    print(f"Train shape: {df_train.shape}, Test shape: {df_test.shape}")
+except FileNotFoundError as e:
+    print(f"ERROR cargando archivos: {e}")
+    raise
+
+# Vistazo rápido
+print("\nTrain Head:")
+display(df_train.head(3))
+print("\nTest Head:")
+display(df_test.head(3))
+--- SALIDA STDOUT (Celda 5) ---
+Train shape: (31922, 20), Test shape: (4353, 19)
+
+Train Head:
+
+
+
+--- SALIDA STDOUT (Celda 5) ---
+
+Test Head:
+
+
+
+
+--- CELDA MARKDOWN 6 ---
+## 3. Estructura y Tipos de Datos
+
+**Propósito:** Obtener información detallada sobre los tipos de datos de cada columna y estadísticas descriptivas generales.
+
+--- CELDA CÓDIGO 7 ---
+print("--- Información Detallada del Conjunto de Entrenamiento ---")
+df_train.info()
+
+print("\n--- Estadísticas Descriptivas (Train) ---")
+display(df_train.describe(include='all').T)
+--- SALIDA STDOUT (Celda 7) ---
+--- Información Detallada del Conjunto de Entrenamiento ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31922 entries, 0 to 31921
+Data columns (total 20 columns):
+ #   Column                              Non-Null Count  Dtype  
+---  ------                              --------------  -----  
+ 0   Id                                  31922 non-null  int64  
+ 1   ID_Reserva                          31922 non-null  object 
+ 2   Num_Adultos                         31922 non-null  int64  
+ 3   Num_Niños                           31922 non-null  int64  
+ 4   Noches_Fin_Semana                   31922 non-null  int64  
+ 5   Noches_Semana                       31922 non-null  int64  
+ 6   Tipo_Plan_Comidas                   25792 non-null  object 
+ 7   Requiere_Estacionamiento            31922 non-null  int64  
+ 8   Tipo_Habitación_Reservada           28545 non-null  object 
+ 9   Tiempo_Antelación                   27745 non-null  float64
+ 10  Año_Llegada                         31922 non-null  int64  
+ 11  Mes_Llegada                         31922 non-null  int64  
+ 12  Día_Llegada                         31922 non-null  int64  
+ 13  Segmento_Mercado                    27794 non-null  object 
+ 14  Huésped_Recurrente                  31922 non-null  int64  
+ 15  Num_Cancelaciones_Previas           31922 non-null  int64  
+ 16  Num_Reservas_Previas_No_Canceladas  31922 non-null  int64  
+ 17  Precio_Promedio_Por_Habitación      26729 non-null  float64
+ 18  Num_Solicitudes_Especiales          27995 non-null  float64
+ 19  Estado_Reserva                      31922 non-null  object 
+dtypes: float64(3), int64(12), object(5)
+memory usage: 4.9+ MB
+
+--- Estadísticas Descriptivas (Train) ---
+
+
+
+
+--- CELDA MARKDOWN 8 ---
+## 4. Análisis de Valores Nulos
+
+**Propósito:** Identificar la cantidad y el porcentaje de valores nulos por columna, y visualizar patrones de nulidad para entender posibles relaciones o problemas de datos.
+
+--- CELDA CÓDIGO 9 ---
+def summarize_missing(df, df_name="Dataset"):
+    missing_summary = df.isnull().sum()
+    missing_percent = (missing_summary / len(df)) * 100
+    missing_table = pd.concat([missing_summary, missing_percent], axis=1, keys=['Nulos', 'Porcentaje'])
+    missing_table = missing_table[missing_table['Nulos'] > 0].sort_values('Porcentaje', ascending=False)
+    print(f"Valores Nulos en {df_name}:")
+    if missing_table.empty:
+        print("No hay valores nulos.")
+    else:
+        display(missing_table)
+    return missing_table
+
+missing_train = summarize_missing(df_train, "Train")
+missing_test = summarize_missing(df_test, "Test")
+
+# Visualización de patrones de nulos
+print("\nVisualización de Matriz de Nulos (Train):")
+msno.matrix(df_train)
+plt.show()
+
+if not missing_train.empty:
+    msno.bar(df_train[missing_train.index], sort='ascending', figsize=(10,5)) # Usar index de missing_train
+    plt.title("Cantidad de Valores Nulos por Columna (Train)")
+    plt.show()
+--- SALIDA STDOUT (Celda 9) ---
+Valores Nulos en Train:
+
+
+
+--- SALIDA STDOUT (Celda 9) ---
+Valores Nulos en Test:
+
+
+
+--- SALIDA STDOUT (Celda 9) ---
+
+Visualización de Matriz de Nulos (Train):
+
+
+
+
+
+--- CELDA MARKDOWN 10 ---
+## 5. Análisis de la Variable Objetivo (`Estado_Reserva`)
+
+**Propósito:** Entender la distribución de la variable que queremos predecir para identificar si hay desbalance de clases, lo cual afectará la elección de métricas y estrategias de modelado.
+
+--- CELDA CÓDIGO 11 ---
+plt.figure(figsize=(7, 5))
+ax = sns.countplot(x=TARGET_COL, data=df_train, palette={'No Cancelada': 'skyblue', 'Cancelada': 'salmon'})
+total = len(df_train[TARGET_COL])
+for p in ax.patches:
+    percentage = f'{100 * p.get_height() / total:.1f}%'
+    x_coord = p.get_x() + p.get_width() / 2
+    y_coord = p.get_height()
+    ax.text(x_coord, y_coord, f'{p.get_height()}\n({percentage})', ha='center', va='bottom')
+plt.title(f'Distribución de {TARGET_COL}', fontsize=15)
+plt.show()
+
+print(df_train[TARGET_COL].value_counts(normalize=True))
+--- SALIDA STDERR (Celda 11) ---
+/var/folders/gz/gdrjz7wn4f526406r69vlxl40000gn/T/ipykernel_30502/1724000899.py:2: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  ax = sns.countplot(x=TARGET_COL, data=df_train, palette={'No Cancelada': 'skyblue', 'Cancelada': 'salmon'})
+
+
+
+--- SALIDA STDOUT (Celda 11) ---
+Estado_Reserva
+No Cancelada   0.672
+Cancelada      0.328
+Name: proportion, dtype: float64
+
+
+
+--- CELDA MARKDOWN 12 ---
+## 6. Análisis Univariado de Features
+
+**Propósito:** Examinar la distribución de cada feature individualmente para entender su naturaleza, rango de valores, y identificar posibles outliers o sesgos.
+
+--- CELDA MARKDOWN 13 ---
+### 6.1. Features Numéricas
+
+
+--- CELDA CÓDIGO 14 ---
+# Identificar columnas numéricas (excluyendo IDs si los tuvieras como int/float)
+numerical_cols = df_train.select_dtypes(include=np.number).columns.tolist()
+# Remover IDs si están como numéricos y target si ya estuviera mapeado (aunque aquí TARGET_COL es object)
+ids_to_exclude_from_num = ['Id'] # Asumiendo 'Id' es el ID numérico
+numerical_cols = [col for col in numerical_cols if col not in ids_to_exclude_from_num]
+
+print(f"Analizando {len(numerical_cols)} features numéricas: {numerical_cols}")
+
+df_train[numerical_cols].hist(bins=30, figsize=(18, 12), layout=(-1, 4)) # Ajustar layout según cantidad
+plt.tight_layout()
+plt.show()
+--- SALIDA STDOUT (Celda 14) ---
+Analizando 14 features numéricas: ['Num_Adultos', 'Num_Niños', 'Noches_Fin_Semana', 'Noches_Semana', 'Requiere_Estacionamiento', 'Tiempo_Antelación', 'Año_Llegada', 'Mes_Llegada', 'Día_Llegada', 'Huésped_Recurrente', 'Num_Cancelaciones_Previas', 'Num_Reservas_Previas_No_Canceladas', 'Precio_Promedio_Por_Habitación', 'Num_Solicitudes_Especiales']
+
+
+
+
+--- CELDA MARKDOWN 15 ---
+### 6.2. Features Categóricas
+
+--- CELDA CÓDIGO 16 ---
+categorical_cols = df_train.select_dtypes(include=['object', 'category']).columns.tolist()
+categorical_cols = [col for col in categorical_cols if col not in [TARGET_COL, 'ID_Reserva']] # Excluir target y ID_Reserva de texto
+
+print(f"Analizando {len(categorical_cols)} features categóricas: {categorical_cols}")
+
+for col in categorical_cols:
+    print(f"\n--- {col} ---")
+    print(f"Valores Únicos: {df_train[col].nunique()}")
+    display(df_train[col].value_counts(normalize=True, dropna=False).head(10).to_frame()) # Porcentaje y nulos
+    
+    if df_train[col].nunique() < 20: # Solo graficar si no son demasiadas categorías
+        plt.figure(figsize=(8, max(4, df_train[col].nunique()*0.3)))
+        sns.countplot(y=col, data=df_train, order=df_train[col].value_counts().index[:15])
+        plt.title(f"Distribución de {col}")
+        plt.tight_layout()
+        plt.show()
+--- SALIDA STDOUT (Celda 16) ---
+Analizando 3 features categóricas: ['Tipo_Plan_Comidas', 'Tipo_Habitación_Reservada', 'Segmento_Mercado']
+
+--- Tipo_Plan_Comidas ---
+Valores Únicos: 4
+
+
+
+
+--- SALIDA STDOUT (Celda 16) ---
+
+--- Tipo_Habitación_Reservada ---
+Valores Únicos: 7
+
+
+
+
+--- SALIDA STDOUT (Celda 16) ---
+
+--- Segmento_Mercado ---
+Valores Únicos: 5
+
+
+
+
+
+--- CELDA MARKDOWN 17 ---
+## 7. Análisis Bivariado y Multivariado
+
+**Propósito:** Investigar la relación entre las features y la variable objetivo, así como las correlaciones entre features para detectar multicolinealidad.
+
+--- CELDA MARKDOWN 18 ---
+### 7.1. Correlación de Features Numéricas y VIF
+
+
+--- CELDA CÓDIGO 19 ---
+# Mapear target para análisis de correlación
+df_train_corr = df_train.copy()
+target_map_corr = {'No Cancelada': 0, 'Cancelada': 1}
+df_train_corr[TARGET_COL] = df_train_corr[TARGET_COL].map(target_map_corr)
+
+# Incluir target en la lista de columnas numéricas para la correlación
+cols_for_corr = numerical_cols + [TARGET_COL]
+correlation_matrix = df_train_corr[cols_for_corr].corr()
+
+plt.figure(figsize=(max(10, len(cols_for_corr)*0.6), max(8, len(cols_for_corr)*0.5)))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", linewidths=.5, vmin=-1, vmax=1)
+plt.title('Matriz de Correlación (Numéricas y Target)', fontsize=15)
+plt.show()
+
+# Cálculo de VIF (Factor de Inflación de la Varianza)
+# VIF solo para features predictoras, no el target. Usar datos sin nulos para VIF.
+df_numerical_no_na = df_train[numerical_cols].dropna() # O imputar antes de VIF
+if not df_numerical_no_na.empty and len(df_numerical_no_na.columns) > 1:
+    vif_data = pd.DataFrame()
+    vif_data["feature"] = df_numerical_no_na.columns
+    vif_data["VIF"] = [variance_inflation_factor(df_numerical_no_na.values, i) for i in range(len(df_numerical_no_na.columns))]
+    vif_data = vif_data.sort_values(by="VIF", ascending=False)
+    print("\nFactor de Inflación de la Varianza (VIF) para Features Numéricas:")
+    display(vif_data)
+else:
+    print("\nNo se pudo calcular VIF (pocas features numéricas sin nulos o dataset vacío tras dropna).")
+
+--- SALIDA STDOUT (Celda 19) ---
+
+Factor de Inflación de la Varianza (VIF) para Features Numéricas:
+
+
+
+
+--- CELDA MARKDOWN 20 ---
+### 7.2. Features Categóricas vs Target
+
+
+--- CELDA CÓDIGO 21 ---
+# Usamos df_train_corr que ya tiene el target mapeado
+for col in categorical_cols:
+    # Agrupar por categoría y calcular la media del target (tasa de cancelación)
+    agg_df = df_train_corr.groupby(col)[TARGET_COL].agg(['mean', 'count']) \
+                         .rename(columns={'mean': 'Tasa_Cancelacion', 'count': 'N_Observaciones'}) \
+                         .sort_values(by='Tasa_Cancelacion', ascending=False)
+    
+    print(f"\n--- {col} vs {TARGET_COL} ---")
+    display(agg_df)
+    
+    if df_train_corr[col].nunique() < 20 and not agg_df.empty: # Graficar si no son demasiadas
+        plt.figure(figsize=(10, max(4, len(agg_df)*0.3)))
+        sns.barplot(y=agg_df.index, x='Tasa_Cancelacion', data=agg_df, palette="viridis")
+        plt.axvline(df_train_corr[TARGET_COL].mean(), ls='--', color='red', label=f'Tasa Global ({df_train_corr[TARGET_COL].mean():.2f})')
+        plt.title(f"Tasa de Cancelación Media por {col}")
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+--- SALIDA STDOUT (Celda 21) ---
+
+--- Tipo_Plan_Comidas vs Estado_Reserva ---
+
+
+
+--- SALIDA STDERR (Celda 21) ---
+/var/folders/gz/gdrjz7wn4f526406r69vlxl40000gn/T/ipykernel_30502/630423325.py:13: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(y=agg_df.index, x='Tasa_Cancelacion', data=agg_df, palette="viridis")
+
+
+
+--- SALIDA STDOUT (Celda 21) ---
+
+--- Tipo_Habitación_Reservada vs Estado_Reserva ---
+
+
+
+--- SALIDA STDERR (Celda 21) ---
+/var/folders/gz/gdrjz7wn4f526406r69vlxl40000gn/T/ipykernel_30502/630423325.py:13: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(y=agg_df.index, x='Tasa_Cancelacion', data=agg_df, palette="viridis")
+
+
+
+--- SALIDA STDOUT (Celda 21) ---
+
+--- Segmento_Mercado vs Estado_Reserva ---
+
+
+
+--- SALIDA STDERR (Celda 21) ---
+/var/folders/gz/gdrjz7wn4f526406r69vlxl40000gn/T/ipykernel_30502/630423325.py:13: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(y=agg_df.index, x='Tasa_Cancelacion', data=agg_df, palette="viridis")
+
+
+
+
+--- CELDA MARKDOWN 22 ---
+## 8. Análisis Temporal (Básico)
+
+**Propósito:** Explorar si existen patrones o tendencias en las reservas a lo largo del tiempo (meses, años) que puedan influir en las cancelaciones.
+
+--- CELDA CÓDIGO 23 ---
+# Crear columna de fecha (si no se hizo antes)
+try:
+    df_train_eda_temp = df_train.copy() # Usar una copia para no modificar df_train globalmente aquí
+    df_train_eda_temp['Fecha_Llegada'] = pd.to_datetime(
+        df_train_eda_temp['Año_Llegada'].astype(str) + '-' +
+        df_train_eda_temp['Mes_Llegada'].astype(str) + '-' +
+        df_train_eda_temp['Día_Llegada'].astype(str),
+        errors='coerce' # Manejar errores si alguna fecha es inválida
+    )
+    df_train_eda_temp.dropna(subset=['Fecha_Llegada'], inplace=True) # Dropear filas donde la fecha no se pudo parsear
+
+    df_train_eda_temp['Mes_Anio_Llegada'] = df_train_eda_temp['Fecha_Llegada'].dt.to_period('M')
+    
+    reservas_por_mes_anio = df_train_eda_temp.groupby('Mes_Anio_Llegada').size()
+    
+    if not reservas_por_mes_anio.empty:
+        plt.figure(figsize=(15, 6))
+        reservas_por_mes_anio.plot(kind='line', marker='o')
+        plt.title('Número de Reservas por Mes y Año de Llegada', fontsize=15)
+        plt.ylabel('Número de Reservas')
+        plt.xlabel('Mes y Año de Llegada')
+        plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+        # También la tasa de cancelación por mes/año (requiere target mapeado)
+        df_train_eda_temp[TARGET_COL] = df_train_eda_temp[TARGET_COL].map(target_map_corr) # Re-mapear si es necesario
+        cancel_rate_mes_anio = df_train_eda_temp.groupby('Mes_Anio_Llegada')[TARGET_COL].mean()
+        if not cancel_rate_mes_anio.empty:
+            plt.figure(figsize=(15, 6))
+            cancel_rate_mes_anio.plot(kind='line', marker='o', color='salmon')
+            plt.title('Tasa de Cancelación Media por Mes y Año de Llegada', fontsize=15)
+            plt.ylabel('Tasa de Cancelación Media')
+            plt.xlabel('Mes y Año de Llegada')
+            plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            plt.show()
+    else:
+        print("No se pudieron generar datos temporales para graficar.")
+        
+except Exception as e:
+    print(f"Error en análisis temporal: {e}")
+
+
+
+--- CELDA MARKDOWN 24 ---
+## 9. Conclusiones del EDA y Próximos Pasos
+
+**Propósito:** Resumir los hallazgos clave del análisis exploratorio y definir las acciones concretas para las fases de preprocesamiento, ingeniería de características y modelado.
+
+--- CELDA MARKDOWN 25 ---
+**Hallazgos Clave:**
+*   **Target:** La variable `Estado_Reserva` muestra un desbalance de [Insertar % de la clase mayoritaria vs minoritaria].
+*   **Nulos:** Las columnas [Lista de columnas con > X% nulos] requieren una estrategia de imputación. [Comentar si hay patrones en los nulos].
+*   **Distribuciones Numéricas:** [Mencionar features con sesgo o outliers importantes, ej. `Tiempo_Antelacion`, `Precio_Promedio_Por_Habitacion`].
+*   **Features Categóricas:** [Mencionar features con alta cardinalidad o categorías con tasas de cancelación notablemente diferentes, ej. `Tipo_Habitacion_Reservada`, `Segmento_Mercado`].
+*   **Correlaciones/VIF:** [Mencionar si hay alta multicolinealidad detectada por VIF o correlaciones fuertes que sugieran redundancia].
+*   **Relación con Target:** Las features [Lista de features que muestran una relación más clara con el target] parecen ser predictores importantes.
+*   **Temporalidad:** [Mencionar si se observó estacionalidad o tendencias en las reservas o cancelaciones].
+
+**Próximos Pasos Sugeridos:**
+1.  **Preprocesamiento:**
+    *   Imputar nulos: Mediana para numéricos. Para categóricos con nulos significativos (ej. `Tipo_Plan_Comidas`), experimentar entre imputar con la moda o crear una categoría 'Faltante' basada en el análisis bivariado.
+    *   Manejar outliers en [features específicas] (ej. con winsorización o transformación logarítmica).
+    *   Codificar categóricas: Para LightGBM, convertir a tipo `category`. Para otras (o si se experimenta), considerar target encoding (con CV) para alta cardinalidad.
+2.  **Ingeniería de Características:**
+    *   Crear `Duracion_Total_Estancia`, `Total_Huespedes`, `Precio_Por_Noche`, `Precio_Por_Persona_Noche`.
+    *   Crear features cíclicas para `Mes_Llegada` (seno/coseno) para capturar estacionalidad.
+    *   Agrupar `Tiempo_Antelacion` en bins.
+    *   Explorar interacciones entre features prometedoras (ej. `Segmento_Mercado` y `Tiempo_Antelacion`).
+    *   Crear `Ratio_Cancelacion_Previa` a partir de `Num_Cancelaciones_Previas` y `Num_Reservas_Previas_No_Canceladas`.
+3.  **Validación:** Implementar `StratifiedKFold` para la evaluación robusta del modelo.
+4.  **Modelado Inicial:** Empezar con LightGBM, optimizando para Weighted F1-Score y prestando atención al manejo del desbalance de clases y la optimización del umbral de decisión.

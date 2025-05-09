@@ -1,0 +1,101 @@
+# configs/best_config_optuna.yaml
+
+# Rutas (copiar de base_config.yaml)
+data_raw_path:       "data/raw/"
+train_file:          "train.csv"
+# ...otras rutas...
+
+# Columnas a procesar (copiar de base_config.yaml)
+numerical_columns:
+  - Num_Adultos
+  - Num_Niños
+  - Noches_Semana
+  - Noches_Fin_Semana
+  - Tiempo_Antelación
+  - Precio_Promedio_Por_Habitación
+  - Num_Solicitudes_Especiales
+
+categorical_columns:
+  - Tipo_Plan_Comidas
+  - Tipo_Habitación_Reservada
+  - Segmento_Mercado
+
+# Limpieza y tratamiento de outliers (ACTUALIZADO según Optuna Trial 71)
+preprocessing:
+  create_missing_flags: true
+  outlier_treatment_numerical: 'none'   # <<< ACTUALIZADO: Optuna eligió 'none'
+  # Las siguientes claves de winsor/log ya no son necesarias si es 'none', pero no dañan si se quedan
+  # winsor_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
+  # log_transform_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
+  # winsor_quantiles_lower: 0.01 # Valor no relevante si outlier_treatment es 'none'
+  # winsor_quantiles_upper: 0.99 # Valor no relevante si outlier_treatment es 'none'
+  categorical_imputation_fill_value: 'Missing'
+  rare_grouping_threshold: 0.01 # Optuna no optimizó esto, mantener el valor base o el que usaste
+
+# Identificadores (copiar de base_config.yaml)
+id_columns:
+  - "Id"
+  - "ID_Reserva"
+target_column: "Estado_Reserva"
+target_positive_class: "Cancelada"   # Mantener para mapeo
+target_negative_class: "No Cancelada" # Mantener para mapeo
+random_seed: 42 # Mantener o usar el del config base
+
+# Encoding (ACTUALIZADO según Optuna Trial 71)
+encoding:
+  method: 'onehot'        # <<< ACTUALIZADO: Optuna eligió 'onehot'
+  # target_smoothing: 10.0 # Valor no relevante si method es 'onehot'
+
+# Feature Engineering Params (copiar de base_config.yaml, Optuna no optimizó estos aquí)
+feature_engineering_params:
+  antelacion_bins: [-1, 0, 7, 30, 90, 180, 10000]
+  antelacion_labels: ['0_SameDay', '1_1-7Days', '2_8-30Days', '3_31-90Days', '4_91-180Days', '5_180+Days']
+  
+  month_to_season_map:
+    1: 'Invierno'
+    2: 'Invierno'
+    3: 'Primavera'
+    4: 'Primavera'
+    5: 'Primavera'
+    6: 'Verano'
+    7: 'Verano'
+    8: 'Verano'
+    9: 'Otoño'
+    10: 'Otoño'
+    11: 'Otoño'
+    12: 'Invierno'
+
+  cols_to_drop_after_fe:
+    - "Num_Adultos"
+    - "Num_Niños"
+    - "Noches_Semana"
+    - "Noches_Fin_Semana"
+
+# Modelo (ACTUALIZADO según Optuna Trial 71)
+model:
+  name: 'lightgbm'
+  params:
+    # Parámetros Fijos (asegúrate que coinciden con los usados en objective)
+    objective: 'binary'
+    metric: 'binary_logloss' # Métrica interna de entrenamiento
+    random_state: 42         # Usar la semilla base
+    n_jobs: -1
+    verbosity: -1            # Para menos output
+    # early_stopping_rounds: 50 # Solo si se usa con eval_set en fit
+
+    # Parámetros Optimizados por Optuna (Trial 71)
+    boosting_type: 'goss'
+    n_estimators: 1000
+    learning_rate: 0.020030811814622747
+    num_leaves: 56
+    max_depth: 12
+    reg_alpha: 0.018371392086872718
+    reg_lambda: 0.011075316696782656
+    colsample_bytree: 0.8129778848398659
+    min_child_samples: 8
+    min_split_gain: 0.25681617663508066
+    max_bin: 160
+    # subsample y subsample_freq no se aplican a 'goss'
+
+# CV config (Opcional, si quieres definirlo aquí para run_experiment)
+# cv_n_splits: 5

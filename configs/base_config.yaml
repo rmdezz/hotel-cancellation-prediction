@@ -1,0 +1,86 @@
+# configs/base_config.yaml
+
+# Rutas
+data_raw_path:       "data/raw/"
+train_file:          "train.csv"
+# …otras rutas…
+
+# Columnas a procesar
+numerical_columns:
+  - Num_Adultos
+  - Num_Niños
+  - Noches_Semana
+  - Noches_Fin_Semana
+  - Tiempo_Antelación
+  - Precio_Promedio_Por_Habitación
+  - Num_Solicitudes_Especiales
+
+categorical_columns:
+  - Tipo_Plan_Comidas
+  - Tipo_Habitación_Reservada
+  - Segmento_Mercado
+
+# Limpieza y tratamiento de outliers
+preprocessing:
+  create_missing_flags: true
+  outlier_treatment_numerical: 'log1p'   # 'winsor' / 'log1p' / 'none'
+  winsor_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
+  log_transform_cols: ['Tiempo_Antelación','Precio_Promedio_Por_Habitación']
+  winsor_quantiles_lower: 0.01
+  winsor_quantiles_upper: 0.99
+  categorical_imputation_fill_value: 'Missing'
+  rare_grouping_threshold: 0.01
+
+# Identificadores
+id_columns:
+  - "Id"
+  - "ID_Reserva"
+target_column: "Estado_Reserva"
+
+encoding:
+  method: 'target'        # 'target' o 'onehot'
+  target_smoothing: 10.0
+
+feature_engineering_params:
+  # Bins para Tiempo_Antelacion
+  # Usar números grandes/pequeños para representar inf, se convertirán en el código si es necesario.
+  # O mantenerlos como números, pd.cut maneja bien los extremos si los datos están dentro.
+  antelacion_bins: [-1, 0, 7, 30, 90, 180, 10000] # -1 para incluir 0 en el primer bin con right=True
+  antelacion_labels: ['0_SameDay', '1_1-7Days', '2_8-30Days', '3_31-90Days', '4_91-180Days', '5_180+Days']
+  
+  # Mapeo de mes a temporada
+  month_to_season_map:
+    1: 'Invierno'
+    2: 'Invierno'
+    3: 'Primavera'
+    4: 'Primavera'
+    5: 'Primavera'
+    6: 'Verano'
+    7: 'Verano'
+    8: 'Verano'
+    9: 'Otoño'
+    10: 'Otoño'
+    11: 'Otoño'
+    12: 'Invierno'
+
+  # Columnas a eliminar después de crear nuevas features
+  # Estas son las columnas *originales* que alimentaron la creación de features
+  # y que ahora podrían ser redundantes. Se les aplicará el prefijo correspondiente.
+  # Por ejemplo, si 'Num_Adultos' está aquí, se intentará dropear 'num_clean__Num_Adultos'.
+  cols_to_drop_after_fe:
+    - "Num_Adultos"
+    - "Num_Niños"
+    - "Noches_Semana"
+    - "Noches_Fin_Semana"
+    # - "Tiempo_Antelación" # Podríamos querer mantener la numérica original y el bin
+    # - "Mes_Llegada"     # Podríamos querer mantener el numérico original y las cíclicas/season
+    # - "Precio_Promedio_Por_Habitacion" # Si creamos precio por persona y total.
+
+# Modelo (solo para downstream)
+model:
+  name: 'lightgbm'
+  params:
+    n_estimators: 100
+    learning_rate: 0.05
+    random_state: 42
+    verbosity: -1

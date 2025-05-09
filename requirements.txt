@@ -10,6 +10,12 @@ seaborn
 notebook 
 pyyaml     # Para leer archivos de configuración .yaml
 optuna     # Para tuneo de hiperparámetros (opcional al inicio)
+optuna-integration[lightgbm]
+
 mlflow     # Para tracking de experimentos (opcional al inicio)
+missingno
+statsmodels
+category_encoders
+joblib
 # category_encoders # Si decides usarlo
 # mlxtend # Para ensambles (opcional)
